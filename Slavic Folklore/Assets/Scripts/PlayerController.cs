@@ -13,10 +13,16 @@ public class PlayerController : MonoBehaviour
   public float moveSpeed = 5f;
 
   private Rigidbody2D rb;
+  
+  private SpriteRenderer m_SpriteRenderer;
 
   void Start()
   {
     rb = GetComponent<Rigidbody2D>();
+    
+    
+    //get the SpriteRenderer from the Player GameObject to be able to access the flipX component
+    m_SpriteRenderer = GetComponent<SpriteRenderer>();
   }
 
   void Update()
@@ -41,6 +47,23 @@ public class PlayerController : MonoBehaviour
     rb.MovePosition(rb.position + horizontalMovement);
     transform.position += depthMovement;
     
+    
+    
+    
+    //if player is moving left (negative moveX) sprite flipX = true
+
+    if (moveX < 0)
+    {
+      m_SpriteRenderer.flipX = true;
+    }
+    else if (moveX > 0)
+    {
+      m_SpriteRenderer.flipX = false;
+    }
+    
   }
   
 }
+
+
+
