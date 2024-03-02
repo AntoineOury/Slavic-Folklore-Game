@@ -17,10 +17,11 @@ public class CameraFollow : MonoBehaviour
     
     void Update()
     {
-        var position = transform.position;
+        var transform1 = transform;
+        var position = transform1.position;
 
         position.x = player.transform.position.x;
 
-        transform.position = position;
+        transform1.position = position;
     }
 }
