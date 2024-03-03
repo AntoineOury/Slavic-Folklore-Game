@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "EntitiesSheet", menuName = "EntitiesPage")]
+[CreateAssetMenu(fileName = "EntitiesSheet", menuName = "Scriptable Objects/EntitiesPage")]
 public class EntitiesSO : ScriptableObject
 {
    public new string name;
