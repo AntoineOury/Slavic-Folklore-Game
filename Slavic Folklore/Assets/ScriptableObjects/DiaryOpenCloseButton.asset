@@ -9,13 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04f6bee9f06709246a4c596aa71d87cd, type: 3}
-  m_Name: EntitiesSheet_Rusalka
+  m_Script: {fileID: 11500000, guid: cef61d26289aaa946bb6176c5cbb67c7, type: 3}
+  m_Name: DiaryOpenCloseButton
   m_EditorClassIdentifier: 
-  name: "Rusa\u0142ka "
-  partialInfo: A spirit that appears in the woods...
-  fullInfo: "Rusa\u0142ki are blah blah blah "
-  artShadow: {fileID: 0}
-  entityArt: {fileID: 0}
+  openDiary: {fileID: 21300000, guid: bc13bab4ac3b3e847a761164bae7a480, type: 3}
   closedDiary: {fileID: 21300000, guid: efc5e7d6fc388f24b869f963f4faa1fc, type: 3}
-  openDiary: {fileID: 0}
+  diaryUI: {fileID: 263613713258683959, guid: 20d273c80a588c44ea918e2e6cf8def1, type: 3}
