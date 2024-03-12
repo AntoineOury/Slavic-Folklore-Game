@@ -1,24 +1,39 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DiaryController : MonoBehaviour
 {
-    
-    //ref the Scriptable Object file 
-    //check if diary GameObject is active, if it is: SO Sprite openDiary & when button clicked disable diaryGO
-    // if not: SO Sprite closedDiary & when button clicked set active diaryGO
-    
-    
-    // Start is called before the first frame update
-    void Start()
+    //link the concerned SO here: 
+    public GameObject diaryGO;
+
+    [SerializeField] private Button diaryButton;
+    [SerializeField] private Sprite closedDiary;
+    [SerializeField] private Sprite openDiary;
+    public void Start()
     {
-        
+        //make sure the Diary state is closed
+       diaryGO.SetActive(false);
+       diaryButton.gameObject.GetComponent<Image>().sprite = closedDiary;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DiaryToggle()
     {
+        //if it is closed and the button is pressed make it open 
+        if (diaryGO.activeSelf == false)
+        {
+            diaryGO.SetActive(true);
+            diaryButton.gameObject.GetComponent<Image>().sprite = openDiary;
+        }
+        else
+        {
+            diaryGO.SetActive(false);
+            diaryButton.gameObject.GetComponent<Image>().sprite = closedDiary;
+        }
         
     }
+    
 }
