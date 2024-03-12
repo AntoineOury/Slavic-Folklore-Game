@@ -9,6 +9,7 @@ public class DiaryController : MonoBehaviour
     //link the concerned SO here: 
     public GameObject diaryGO;
 
+    //change the button image sprite for open/closed
     [SerializeField] private Button diaryButton;
     [SerializeField] private Sprite closedDiary;
     [SerializeField] private Sprite openDiary;
