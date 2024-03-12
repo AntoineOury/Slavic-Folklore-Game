@@ -5,6 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DialogueLine" , menuName = "Scriptable Objects/Dialogue System/RandomNPC")]
 public class DialogueSO : ScriptableObject
 {
-   [SerializeField] private string npcName;
+   //name of the speaker NPC
+   [SerializeField] private string npcSpeaker;
+   [SerializeField] private string npcText;
+
    
 }
