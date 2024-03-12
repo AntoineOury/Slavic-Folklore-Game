@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
+    //Code from this amazing tutorial: https://youtu.be/cqNBA9Pslg8?si=9bRwbo8D6tvZeWQo
+    
+    
     public float speed;
 
     public float groundDist;
