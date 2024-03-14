@@ -751,7 +751,6 @@ MonoBehaviour:
   relevantSO: {fileID: 11400000, guid: acd50fc509a53be4aafbc67d6b2b8672, type: 2}
   characterName: {fileID: 561112738}
   characterLines: {fileID: 1358568149}
-  pressSpace: {fileID: 1495975553}
 --- !u!1 &561112736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3414,7 +3413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236180e4b0456084c9c9009ff3728875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueTrigger: {fileID: 564776812}
+  dialogueTrigger: {fileID: 0}
   pressE: {fileID: 2022268167}
   dialogueBubble: {fileID: 464987719}
 --- !u!1 &2139285606
