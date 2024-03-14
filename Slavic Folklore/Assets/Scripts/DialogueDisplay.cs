@@ -8,13 +8,12 @@ using UnityEngine.UI;
 public class DialogueDisplay : MonoBehaviour
 {
     public GameObject dialogueTrigger;
-
     public TMP_Text pressE;
-
     public Image dialogueBubble;
     
     //checking if dialogue bubble is already there 
     private bool isDialogueBubbleActive = false;
+    
     
     // Start is called before the first frame update
     void Update()
@@ -33,6 +32,7 @@ public class DialogueDisplay : MonoBehaviour
             //flagging that the dialogueBubble is ACTIVE (not to spawn it multiple time if
             //player spams E
             isDialogueBubbleActive = true;
+            
         }
     }
 
@@ -40,7 +40,13 @@ public class DialogueDisplay : MonoBehaviour
     {
         pressE.gameObject.SetActive(true);
         Debug.Log("Press E to talk");
-        
+       
+        //doesn't show Press E text prompt if the dialogue bubble is still Active and player re-enters the trigger area
+        if (dialogueBubble.IsActive())
+        {
+            pressE.gameObject.SetActive(false);
+        }
+
     }
     
 }
