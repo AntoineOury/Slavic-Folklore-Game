@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class CharacterLines : MonoBehaviour
+public class DialogueProgress : MonoBehaviour
 {
     //Code written based on this tutorial with modifications: https://www.youtube.com/watch?v=YJLcanHcJxo
     //and debugged with ChatGPT
