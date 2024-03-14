@@ -21,7 +21,6 @@ public class DialogueDisplay : MonoBehaviour
         //if E is pressed AND the dialogueBubble is not already active
         if (Input.GetKeyDown(KeyCode.E) && !isDialogueBubbleActive)
         {
-            
             //when E is pressed "Press E" instruction disappears 
             pressE.gameObject.SetActive(false);
             
@@ -41,7 +40,8 @@ public class DialogueDisplay : MonoBehaviour
         pressE.gameObject.SetActive(true);
         Debug.Log("Press E to talk");
        
-        //doesn't show Press E text prompt if the dialogue bubble is still Active and player re-enters the trigger area
+        //doesn't show Press E text prompt if the dialogue bubble is still Active
+        //and player re-enters the trigger area
         if (dialogueBubble.IsActive())
         {
             pressE.gameObject.SetActive(false);

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Code written based on this tutorial with modifications: https://www.youtube.com/watch?v=YJLcanHcJxo
+
 [System.Serializable]
 public struct Line
 {
@@ -15,6 +17,6 @@ public class DialogueLinesSO : ScriptableObject
 {
    public string characterName;
    
-   //array of line elements that can be written/altered in inspector
+   //array of lines elements that can be written/altered in inspector
    public Line[] lines;
 }
