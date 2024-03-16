@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DialogueProgress : MonoBehaviour
 {
@@ -65,4 +66,6 @@ public class DialogueProgress : MonoBehaviour
             characterLines.text = "";
         }
     }
+
+  
 }
