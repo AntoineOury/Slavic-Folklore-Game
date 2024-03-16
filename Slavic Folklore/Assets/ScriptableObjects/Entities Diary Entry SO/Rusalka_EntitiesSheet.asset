@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04f6bee9f06709246a4c596aa71d87cd, type: 3}
-  m_Name: EntitiesSheet_Rusalka
+  m_Name: Rusalka_EntitiesSheet
   m_EditorClassIdentifier: 
   name: "Rusa\u0142ka "
   partialInfo: A spirit that appears in the woods...
   fullInfo: "Rusa\u0142ki are blah blah blah "
-  artShadow: {fileID: 0}
+  artShadow: {fileID: 21300000, guid: 3b64d88963d4c504081baf06ee43e2e5, type: 3}
   entityArt: {fileID: 0}
-  closedDiary: {fileID: 21300000, guid: efc5e7d6fc388f24b869f963f4faa1fc, type: 3}
-  openDiary: {fileID: 0}

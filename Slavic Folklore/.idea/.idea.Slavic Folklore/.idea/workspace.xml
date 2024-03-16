@@ -6,13 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Main_Character_Sprite.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Main_Character_Sprite.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueProgress.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues/DialogueLinesSO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues/DialogueLinesSO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues/DialogueLines_ManNPC.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues/DialogueLines_ManNPC.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues/DialogueLines_WomanNPC.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Dialogues/DialogueLines_WomanNPC.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/EntitiesSO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/EntitiesSO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/EntitiesSheet_Rusalka.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/EntitiesSheet_Rusalka.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntitySheet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntitySheet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Dialogue_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Dialogue_Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Diary_GameObject.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Diary_GameObject.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +139,7 @@
       <workItem from="1710346394986" duration="1771000" />
       <workItem from="1710352640286" duration="3424000" />
       <workItem from="1710419840795" duration="8380000" />
-      <workItem from="1710605054614" duration="1058000" />
+      <workItem from="1710605054614" duration="2483000" />
     </task>
     <servers />
   </component>
