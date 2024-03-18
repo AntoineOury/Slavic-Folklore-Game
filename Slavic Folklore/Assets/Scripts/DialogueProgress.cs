@@ -18,14 +18,17 @@ public class DialogueProgress : MonoBehaviour
     public TMP_Text characterLines;
     
     private int activeLineIndex = 0;
-    
+
+    //link to DialogueDisplay.cs
+    public DialogueDisplay dia;
     
     public void Start()
     {
         characterName.text = relevantSO.characterName;
         DisplayLine();
+        dia = GetComponent<DialogueDisplay>();
+        
     }
-
 
     public void Update()
     {
@@ -48,12 +51,13 @@ public class DialogueProgress : MonoBehaviour
         {
             activeLineIndex = 0;
             DisplayLine();
+            // dia.dialogueBubble.gameObject.SetActive(false);
         }
     }
 
     void DisplayLine()
     {
-        //we display lines one by one from the lines array in the SO
+        //we display lines one by one from the lines array in the SO in string form
         if (relevantSO.lines.Length > 0)
         {
             activeLineIndex = Mathf.Clamp(activeLineIndex, 0, relevantSO.lines.Length - 1);

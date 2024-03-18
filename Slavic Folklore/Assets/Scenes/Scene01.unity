@@ -2663,7 +2663,7 @@ GameObject:
   - component: {fileID: 564776817}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3355,6 +3355,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580293986}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &587210933 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+  m_PrefabInstance: {fileID: 6262967430383256093}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236180e4b0456084c9c9009ff3728875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &677160758 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6262967429707162923, guid: da15b486525f81f4a8406239dce251c8, type: 3}
@@ -8951,7 +8962,7 @@ GameObject:
   - component: {fileID: 1895731082}
   m_Layer: 0
   m_Name: Player_Shadow
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9958,6 +9969,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743380, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: dia
+      value: 
+      objectReference: {fileID: 587210933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da15b486525f81f4a8406239dce251c8, type: 3}
 --- !u!1 &6655697221594252521 stripped

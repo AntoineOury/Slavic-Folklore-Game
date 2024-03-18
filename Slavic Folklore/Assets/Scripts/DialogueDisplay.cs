@@ -53,4 +53,5 @@ public class DialogueDisplay : MonoBehaviour
     {
         pressE.gameObject.SetActive(false);
     }
+    
 }
