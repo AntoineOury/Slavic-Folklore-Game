@@ -36,7 +36,8 @@ public class DialogueProgress : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             AdvanceDialogue();
-        }
+            
+        } 
     }
 
     void AdvanceDialogue()
@@ -52,12 +53,13 @@ public class DialogueProgress : MonoBehaviour
             activeLineIndex = 0;
             DisplayLine();
             // dia.dialogueBubble.gameObject.SetActive(false);
+         
         }
     }
 
     void DisplayLine()
     {
-        //we display lines one by one from the lines array in the SO in string form
+        //we display lines one by one from the lines array in the SO
         if (relevantSO.lines.Length > 0)
         {
             activeLineIndex = Mathf.Clamp(activeLineIndex, 0, relevantSO.lines.Length - 1);
