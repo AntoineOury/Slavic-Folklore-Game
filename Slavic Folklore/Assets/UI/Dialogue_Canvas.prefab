@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236180e4b0456084c9c9009ff3728875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueTrigger: {fileID: 0}
+  dialogueTrigger: {fileID: 6630792288826950150, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
   pressE: {fileID: 6262967428362051354}
   dialogueBubble: {fileID: 6262967429922743386}
 --- !u!1 &6262967428362051352
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 6262967429922743386}
   - component: {fileID: 6262967429922743380}
   m_Layer: 5
-  m_Name: TextBubble_Image
+  m_Name: DialogueBubble_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -715,4 +715,5 @@ MonoBehaviour:
   relevantSO: {fileID: 11400000, guid: acd50fc509a53be4aafbc67d6b2b8672, type: 2}
   characterName: {fileID: 6262967429826356415}
   characterLines: {fileID: 6262967429030205640}
+  pressSpace: {fileID: 0}
   dia: {fileID: 6262967428266446274}
