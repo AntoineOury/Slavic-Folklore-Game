@@ -47,6 +47,8 @@ public class DialogueDisplay : MonoBehaviour
             pressE.gameObject.SetActive(false);
         }
 
+        dialogueTrigger = other.gameObject;
+
     }
 
     public void OnTriggerExit(Collider other)
