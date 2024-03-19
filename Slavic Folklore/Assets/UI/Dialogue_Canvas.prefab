@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6262967429707162923}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6262967428266446275
 MeshFilter:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236180e4b0456084c9c9009ff3728875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueTrigger: {fileID: 0}
+  dialogueTrigger: {fileID: 6630792288826950150, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
   pressE: {fileID: 6262967428362051354}
   dialogueBubble: {fileID: 6262967429922743386}
 --- !u!1 &6262967428362051352
@@ -415,8 +415,8 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6262967428362051355}
-  - {fileID: 6262967429922743387}
   - {fileID: 6262967428266446279}
+  - {fileID: 6262967429922743387}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -14.597, z: 0}
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6262967429707162922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 6262967429922743386}
   - component: {fileID: 6262967429922743380}
   m_Layer: 5
-  m_Name: TextBubble_Image
+  m_Name: DialogueBubble_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -655,11 +655,11 @@ RectTransform:
   - {fileID: 6262967429826356412}
   - {fileID: 6262967429030205641}
   m_Father: {fileID: 6262967429707162923}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -14.947, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -176, y: 142}
+  m_AnchoredPosition: {x: -175.99382, y: 142.00378}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6262967429922743381
@@ -715,3 +715,5 @@ MonoBehaviour:
   relevantSO: {fileID: 11400000, guid: acd50fc509a53be4aafbc67d6b2b8672, type: 2}
   characterName: {fileID: 6262967429826356415}
   characterLines: {fileID: 6262967429030205640}
+  pressSpace: {fileID: 0}
+  dia: {fileID: 6262967428266446274}

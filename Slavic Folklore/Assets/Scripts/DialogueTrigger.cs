@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine.UI;
-public class DialogueDisplay : MonoBehaviour
+public class DialogueTrigger : MonoBehaviour
 {
     public GameObject dialogueTrigger;
     public TMP_Text pressE;
@@ -47,10 +43,13 @@ public class DialogueDisplay : MonoBehaviour
             pressE.gameObject.SetActive(false);
         }
 
+        dialogueTrigger = other.gameObject;
+
     }
 
     public void OnTriggerExit(Collider other)
     {
         pressE.gameObject.SetActive(false);
     }
+    
 }
