@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitching : MonoBehaviour
 {
-    public AudioSource audioSource;
 
     public void SceneChanger(string sceneName)
     {
