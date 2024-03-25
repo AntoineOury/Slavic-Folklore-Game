@@ -18,6 +18,7 @@ public class DiaryButtons : MonoBehaviour
        PageFlipBack();
     }
 
+   //cycles forward through the list of prefab entities 
    public void PagesFlipForward()
     {
         entitiesPages[currentActiveIndex].SetActive(false);
@@ -31,6 +32,7 @@ public class DiaryButtons : MonoBehaviour
         entitiesPages[currentActiveIndex].SetActive(true);
     }
 
+   //allows us to back cycle the list of entities prefabs in the list 
    public void PageFlipBack()
    {
        entitiesPages[currentActiveIndex].SetActive(false);
