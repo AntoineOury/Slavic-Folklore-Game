@@ -14,4 +14,5 @@ public class EntitiesSO : ScriptableObject
    public Sprite entityArt;
    
    //check if quest for that entity has been completed so that it can replace the partialInfo with the fullInfo
+   
 }

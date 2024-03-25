@@ -12,12 +12,13 @@ public class DiaryButtons : MonoBehaviour
 
     private int currentActiveIndex = 0;
 
-    private void Update()
+   public void Start()
     {
-        PagesFlip();
+       PagesFlipForward();
+       PageFlipBack();
     }
 
-    void PagesFlip()
+   public void PagesFlipForward()
     {
         entitiesPages[currentActiveIndex].SetActive(false);
         currentActiveIndex++;
@@ -29,4 +30,17 @@ public class DiaryButtons : MonoBehaviour
         
         entitiesPages[currentActiveIndex].SetActive(true);
     }
+
+   public void PageFlipBack()
+   {
+       entitiesPages[currentActiveIndex].SetActive(false);
+       currentActiveIndex--;
+
+       if (currentActiveIndex < 0)
+       {
+           currentActiveIndex = entitiesPages.Count - 1;
+       }
+       
+       entitiesPages[currentActiveIndex].SetActive(true);
+   }
 }
