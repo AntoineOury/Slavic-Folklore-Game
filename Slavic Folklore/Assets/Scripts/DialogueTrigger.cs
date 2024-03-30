@@ -11,7 +11,6 @@ public class DialogueTrigger : MonoBehaviour
     private bool isDialogueBubbleActive = false;
     
     
-    // Start is called before the first frame update
     void Update()
     {
         //if E is pressed AND the dialogueBubble is not already active
