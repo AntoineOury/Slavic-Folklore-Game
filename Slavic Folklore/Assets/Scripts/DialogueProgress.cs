@@ -61,6 +61,8 @@ public class DialogueProgress : MonoBehaviour
             activeLineIndex++;
             DisplayLine();
             
+            Debug.Log("line nr: " + activeLineIndex);
+            
             //display 'space to continue' prompt
             pressSpace.gameObject.SetActive(false);
             
@@ -99,7 +101,7 @@ public class DialogueProgress : MonoBehaviour
         dia.dialogueBubble.gameObject.SetActive(false);
 
         //resets the dialogue lines to the beginning
-        activeLineIndex = relevantSO.lines.Length;
+        activeLineIndex = 0;
 
     }
   

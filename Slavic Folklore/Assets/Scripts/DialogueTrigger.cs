@@ -19,12 +19,10 @@ public class DialogueTrigger : MonoBehaviour
             //when E is pressed "Press E" instruction disappears 
             pressE.gameObject.SetActive(false);
             
-            //when E is pressed the Dialogue bubble appears and dialogue 
-            // is initiated
+            //when E is pressed the Dialogue bubble appears and dialogue is initiated
             dialogueBubble.gameObject.SetActive(true);
             
-            //flagging that the dialogueBubble is ACTIVE (not to spawn it multiple time if
-            //player spams E
+            //flagging that the dialogueBubble is ACTIVE (not to spawn it multiple time if player spams E
             isDialogueBubbleActive = true;
             
         }
@@ -35,8 +33,7 @@ public class DialogueTrigger : MonoBehaviour
         pressE.gameObject.SetActive(true);
         Debug.Log("Press E to talk");
        
-        //doesn't show Press E text prompt if the dialogue bubble is still Active
-        //and player re-enters the trigger area
+        //doesn't show Press E text prompt if the dialogue bubble is still Active and player re-enters the trigger area
         if (dialogueBubble.IsActive())
         {
             pressE.gameObject.SetActive(false);
@@ -49,6 +46,9 @@ public class DialogueTrigger : MonoBehaviour
     public void OnTriggerExit(Collider other)
     {
         pressE.gameObject.SetActive(false);
+        
+        //reset isDialogueBubbleActive flag to be able to reactivate dialogues
+        isDialogueBubbleActive = false;
     }
     
 }
