@@ -17,7 +17,7 @@ public class DialogueProgress : MonoBehaviour
     public TMP_Text characterName;
     public TMP_Text characterLines;
 
-    //UI text promts:
+    //UI text prompts:
     public TMP_Text pressSpace;
     
     
