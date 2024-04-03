@@ -3,12 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class InspectTrigger : MonoBehaviour
 {
     // [Tooltip("Drag and drop the Scriptable Object that contains the details about the item associated to this trigger")]
     // public ScriptableObject itemDetailsSO;
     
+    public InspectSO relevantItemSO;
+
+    public TMP_Text itemName;
+    public TMP_Text itemDetails;
     
     public GameObject player;
     public Image inspectIcon;
@@ -24,6 +29,10 @@ public class InspectTrigger : MonoBehaviour
             inspectIcon.gameObject.SetActive(true);
             inRange = true;
             Debug.Log("Press X to inspect");
+            
+            
+            itemName.text = relevantItemSO.itemName;
+            itemDetails.text = relevantItemSO.itemDesc;
             
         }
     }
