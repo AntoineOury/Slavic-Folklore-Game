@@ -16,7 +16,7 @@ public class DialogueTrigger : MonoBehaviour
     void Update()
     {
         //if E is pressed AND the dialogueBubble is not already active
-        if (Input.GetKeyDown(KeyCode.E) && !isDialogueBubbleActive&&inRange == true)
+        if (Input.GetKeyDown(KeyCode.E) && !isDialogueBubbleActive && inRange == true)
         {
             //when E is pressed "Press E" instruction disappears 
             pressE.gameObject.SetActive(false);
@@ -45,7 +45,7 @@ public class DialogueTrigger : MonoBehaviour
             pressE.gameObject.SetActive(false);
         }
 
-        // dialogueTrigger = other.gameObject;
+        dialogueTrigger = other.gameObject;
 
     }
 
