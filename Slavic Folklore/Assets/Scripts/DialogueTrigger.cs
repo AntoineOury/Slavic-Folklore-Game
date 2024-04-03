@@ -39,7 +39,7 @@ public class DialogueTrigger : MonoBehaviour
             pressE.gameObject.SetActive(false);
         }
 
-        dialogueTrigger = other.gameObject;
+        // dialogueTrigger = other.gameObject;
 
     }
 
