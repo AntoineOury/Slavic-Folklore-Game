@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class InspectTrigger : MonoBehaviour
 {
+    // [Tooltip("Drag and drop the Scriptable Object that contains the details about the item associated to this trigger")]
+    // public ScriptableObject itemDetailsSO;
+    
+    
     public GameObject player;
     public Image inspectIcon;
     public GameObject motankaGuide;

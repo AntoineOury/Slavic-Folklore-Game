@@ -3,7 +3,11 @@ guid: eb9b8435f9607b64d9907bff6f6ce5ee
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - soToPass: {instanceID: 0}
+  - player: {instanceID: 0}
+  - inspectIcon: {instanceID: 0}
+  - motankaGuide: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -29,7 +29,7 @@ public class DialogueProgress : MonoBehaviour
     public void Start()
     {
         characterName.text = relevantSO.characterName;
-        DisplayLine();
+        // DisplayLine();
         dia = transform.parent.GetComponentInChildren<DialogueTrigger>();
         
         if (dia != null)
@@ -41,6 +41,12 @@ public class DialogueProgress : MonoBehaviour
             Debug.LogError("DialogueTrigger reference is not assigned.");
         }
         
+    }
+
+    public void OnEnable()
+    {
+        Debug.Log("DialogueProgress is enabled");
+        DisplayLine();
     }
 
     public void Update()
