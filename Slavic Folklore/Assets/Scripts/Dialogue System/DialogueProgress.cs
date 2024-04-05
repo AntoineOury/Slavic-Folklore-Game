@@ -17,19 +17,19 @@ public class DialogueProgress : MonoBehaviour
     public TMP_Text characterName;
     public TMP_Text characterLines;
 
-    //UI text promts:
+    //UI text prompts:
     public TMP_Text pressSpace;
     
     
     private int activeLineIndex = 0;
 
-    //link to DialogueDisplay.cs
+    //link to DialogueTrigger.cs
     public DialogueTrigger dia;
     
     public void Start()
     {
         characterName.text = relevantSO.characterName;
-        DisplayLine();
+        // DisplayLine();
         dia = transform.parent.GetComponentInChildren<DialogueTrigger>();
         
         if (dia != null)
@@ -41,6 +41,12 @@ public class DialogueProgress : MonoBehaviour
             Debug.LogError("DialogueTrigger reference is not assigned.");
         }
         
+    }
+
+    public void OnEnable()
+    {
+        Debug.Log("DialogueProgress is enabled");
+        DisplayLine();
     }
 
     public void Update()
@@ -61,6 +67,11 @@ public class DialogueProgress : MonoBehaviour
             activeLineIndex++;
             DisplayLine();
             
+            Debug.Log("line nr: " + activeLineIndex);
+            
+            //display 'space to continue' prompt
+            pressSpace.gameObject.SetActive(false);
+            
         }
         else
         {
@@ -79,7 +90,9 @@ public class DialogueProgress : MonoBehaviour
 
             characterLines.text = line.text;
             
+            //display 'space to continue' prompt
             pressSpace.gameObject.SetActive(true);
+            
         }
         else
         {
@@ -92,6 +105,10 @@ public class DialogueProgress : MonoBehaviour
     {
         Debug.Log("dialogue ended");
         dia.dialogueBubble.gameObject.SetActive(false);
+
+        //resets the dialogue lines to the beginning
+        activeLineIndex = 0;
+
     }
   
 }

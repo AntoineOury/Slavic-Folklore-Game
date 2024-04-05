@@ -15,8 +15,10 @@ public struct Line
 [CreateAssetMenu(fileName = "DialogueLines", menuName = "Scriptable Objects/Dialogue Lines")]
 public class DialogueLinesSO : ScriptableObject
 {
+   [Header("NPC Name")]
    public string characterName;
    
+   [Header("Dialogue Lines")]
    //array of lines elements that can be written/altered in inspector
    public Line[] lines;
 }

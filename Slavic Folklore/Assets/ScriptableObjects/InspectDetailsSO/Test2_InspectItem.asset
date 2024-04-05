@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99970511af3689548b4a94cd38a87382, type: 3}
-  m_Name: DialogueLines_WomanNPC
+  m_Script: {fileID: 11500000, guid: 2e1b7a27c32cf0244a9aec0aa94a0b19, type: 3}
+  m_Name: Test2_InspectItem
   m_EditorClassIdentifier: 
-  characterName: Mira
-  lines:
-  - text: Hello Seer...!
-  - text: Have you seen the new comers? They are preaching about a new God.
-  - text: You can go see them in the town square.
+  itemName: Smth Smth
+  itemDesc: wbrfkwhfblahe
