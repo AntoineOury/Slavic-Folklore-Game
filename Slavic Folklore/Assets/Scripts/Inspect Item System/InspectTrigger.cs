@@ -49,7 +49,11 @@ public class InspectTrigger : MonoBehaviour
     {
         if(inRange && Input.GetKeyDown(KeyCode.X))
         {
+            //display Guide
             motankaGuide.gameObject.SetActive(true);
+            
+            //inspect prompt disappears after Guide displayed
+            inspectIcon.gameObject.SetActive(false);
         }
     }
 }
