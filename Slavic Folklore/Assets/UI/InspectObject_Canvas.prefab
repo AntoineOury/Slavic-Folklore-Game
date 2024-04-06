@@ -121,6 +121,7 @@ MonoBehaviour:
   player: {fileID: 0}
   inspectIcon: {fileID: 1291915680542107385}
   motankaGuide: {fileID: 0}
+  ppVol: {fileID: 0}
 --- !u!1 &1291915680040493255
 GameObject:
   m_ObjectHideFlags: 0
