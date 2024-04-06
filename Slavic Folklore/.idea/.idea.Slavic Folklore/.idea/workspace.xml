@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inspect Item System/InspectTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inspect Item System/InspectTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/InspectObject_Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/InspectObject_Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Diary System/DiaryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Diary System/DiaryController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +134,7 @@
       <workItem from="1711825551373" duration="6058000" />
       <workItem from="1712075498747" duration="3370000" />
       <workItem from="1712144018838" duration="10861000" />
-      <workItem from="1712419080459" duration="2057000" />
+      <workItem from="1712419080459" duration="2307000" />
     </task>
     <servers />
   </component>

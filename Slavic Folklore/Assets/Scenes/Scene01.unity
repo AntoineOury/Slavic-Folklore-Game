@@ -2201,6 +2201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diaryGO: {fileID: 8486773221858735794}
+  ppVol: {fileID: 963194231}
   diaryButton: {fileID: 334273918}
   closedDiary: {fileID: 21300000, guid: efc5e7d6fc388f24b869f963f4faa1fc, type: 3}
   openDiary: {fileID: 21300000, guid: bc13bab4ac3b3e847a761164bae7a480, type: 3}
@@ -12039,6 +12040,18 @@ MonoBehaviour:
       - m_Target: {fileID: 443133858}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 963194231}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
