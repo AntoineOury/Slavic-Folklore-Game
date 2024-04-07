@@ -2,12 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
 
 public class DiaryController : MonoBehaviour
 {
     //link the concerned SO here: 
     public GameObject diaryGO;
+    
+    //ppVolume mainCamera for background blur
+    public PostProcessVolume ppVol;
 
     //change the button image sprite for open/closed
     [SerializeField] private Button diaryButton;
@@ -28,11 +32,17 @@ public class DiaryController : MonoBehaviour
         {
             diaryGO.SetActive(true);
             diaryButton.gameObject.GetComponent<Image>().sprite = openDiary;
+            
+            //blur background when Diary is opened
+            ppVol.enabled = true;
         }
         else
         {
             diaryGO.SetActive(false);
             diaryButton.gameObject.GetComponent<Image>().sprite = closedDiary;
+            
+            //DON'T blur background when Diary is closed
+            ppVol.enabled = false;
         }
         
     }

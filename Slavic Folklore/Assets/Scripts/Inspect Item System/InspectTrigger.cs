@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Rendering.PostProcessing;
 
 public class InspectTrigger : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class InspectTrigger : MonoBehaviour
     public Image inspectIcon;
     public GameObject motankaGuide;
 
+    //mainCam post processing volume (for background blur)
+    public PostProcessVolume ppVol;
+    
     //checks if player is in the trigger area
     private bool inRange = false;
     
@@ -42,14 +46,23 @@ public class InspectTrigger : MonoBehaviour
         inspectIcon.gameObject.SetActive(false);
         motankaGuide.gameObject.SetActive(false);
         inRange = false;
-
+        
+        //disable background blur
+        ppVol.enabled = false;
     }
 
     public void Update()
     {
         if(inRange && Input.GetKeyDown(KeyCode.X))
         {
+            //display Guide
             motankaGuide.gameObject.SetActive(true);
+            
+            //inspect prompt disappears after Guide displayed
+            inspectIcon.gameObject.SetActive(false);
+            
+            //blur background when Guide is opened
+            ppVol.enabled = true;
         }
     }
 }
