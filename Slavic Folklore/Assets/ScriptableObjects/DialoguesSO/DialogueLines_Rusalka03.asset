@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99970511af3689548b4a94cd38a87382, type: 3}
-  m_Name: DialogueLines_Rusalka01
+  m_Name: DialogueLines_Rusalka03
   m_EditorClassIdentifier: 
   characterName: "Rusa\u0142ka"
   lines:
-  - text: Seer... we're glad to see you here! Haha...!
-  - text: Come join us! Dance with us!
+  - text: Oh if you want us to let you pass, you have to dance with us!
+  - text: 'Hmm... you could also '
