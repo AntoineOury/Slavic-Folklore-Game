@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene02 - Into the Woods.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02 - Into the Woods.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_Rusalka01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_Rusalka01.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,7 @@
       <workItem from="1712075498747" duration="3370000" />
       <workItem from="1712144018838" duration="10861000" />
       <workItem from="1712419080459" duration="2307000" />
-      <workItem from="1712593527914" duration="3511000" />
+      <workItem from="1712593527914" duration="3526000" />
     </task>
     <servers />
   </component>
