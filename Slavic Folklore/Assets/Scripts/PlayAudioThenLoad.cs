@@ -14,7 +14,7 @@ public class PlayAudioThenLoad : MonoBehaviour
     private IEnumerator coroutine;
     public Button button;
 
-    public SceneSwitching sceneSwitching; 
+    public LoadScreen sceneSwitching; 
 
 
 
@@ -51,7 +51,7 @@ public class PlayAudioThenLoad : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
             //print("WaitAndPrint " + Time.time);
 
-            sceneSwitching.SceneChanger("Scene01");
+            sceneSwitching.LoadScene(sceneId: 1);
             
 
         }
