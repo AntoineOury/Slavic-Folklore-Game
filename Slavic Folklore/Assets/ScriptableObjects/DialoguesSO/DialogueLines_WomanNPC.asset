@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Mira
   lines:
-  - text: Hello Seer...!
-  - text: Have you seen the new comers? They are preaching about a new God.
-  - text: You can go see them in the town square.
+  - text: Good morning to you Seer!
+  - text: Have you heard the talks about a new God?
+  - text: You should go to the village square
+  - text: Dziwigor will tell you more
