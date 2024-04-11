@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
-    //Code from this amazing tutorial: https://youtu.be/cqNBA9Pslg8?si=9bRwbo8D6tvZeWQo
-    
-    
     public float speed;
-
     public float groundDist;
-
     public LayerMask terrainLayer;
-
     public Rigidbody rb;
-
     public SpriteRenderer sr;
-    
-    
-    // Start is called before the first frame update
+    private FootstepController footstepController; // Reference to the FootstepController component
+
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody>();
+        footstepController = GetComponentInChildren<FootstepController>(); // Get the FootstepController component from children
+        rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         RaycastHit hit;
@@ -54,6 +45,16 @@ public class PlayerMovement : MonoBehaviour
         else if (x != 0 && x > 0)
         {
             sr.flipX = false;
+        }
+
+        // Check if the player is walking or not and call the appropriate methods
+        if (moveDir.magnitude > 0)
+        {
+            footstepController.StartWalking();
+        }
+        else
+        {
+            footstepController.StopWalking();
         }
     }
 }

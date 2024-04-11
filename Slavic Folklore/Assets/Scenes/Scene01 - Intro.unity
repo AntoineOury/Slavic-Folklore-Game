@@ -1856,6 +1856,7 @@ GameObject:
   - component: {fileID: 570731443}
   - component: {fileID: 570731444}
   - component: {fileID: 570731445}
+  - component: {fileID: 570731446}
   m_Layer: 0
   m_Name: FootstepManager
   m_TagString: Untagged
@@ -1870,13 +1871,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570731442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 812.3964, y: 345.19348, z: -773.8677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 994836104}
-  m_RootOrder: 3
+  m_Father: {fileID: 564776813}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &570731444
 AudioSource:
@@ -1889,8 +1890,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 901867621691331217, guid: 62e05e10af21d4bc89ae896f247a1340, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.12
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1964,7 +1965,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 1.1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1987,18 +1988,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footstepSounds:
-  - {fileID: 8300000, guid: 6fe1d4929b4a74305a94d9c80c1a244e, type: 3}
-  - {fileID: 8300000, guid: bb27ae463f33a4f1a81fc8211ee4fb1a, type: 3}
-  - {fileID: 8300000, guid: 71cc536f55bf84b3f813ea61261652cb, type: 3}
-  - {fileID: 8300000, guid: 5fe110c6704cf4851b703406e8ee8d6c, type: 3}
-  - {fileID: 8300000, guid: 272a31808feb2423a9f48d49d31944c4, type: 3}
-  - {fileID: 8300000, guid: ce1ad6c5a1cc3448fbe45b84d9035a0c, type: 3}
-  - {fileID: 8300000, guid: dc2a85ac70c9443d6ad4b544364e4e9a, type: 3}
-  - {fileID: 8300000, guid: 085203bece6f04f9ebaea5b3c8467256, type: 3}
-  - {fileID: 8300000, guid: 8f6ab7bab5d244cf7a2958bb8e231e22, type: 3}
-  - {fileID: 8300000, guid: da42968d9c36f433290e4a8a9ed4456a, type: 3}
-  minTimeBetweenFootsteps: 0.3
+  - {fileID: 8300000, guid: b4fa815ee8e2f4ca1a28b64d855cc7e8, type: 3}
+  - {fileID: 8300000, guid: 46843cbf06de34f5fba961e13bf9c126, type: 3}
+  - {fileID: 8300000, guid: c1153114a7cea458186fc10188e5fd30, type: 3}
+  - {fileID: 8300000, guid: 7bcca818ab80641b7bc166e327dc3754, type: 3}
+  - {fileID: 8300000, guid: cef48a5799c314127ac9ca84846aa81f, type: 3}
+  - {fileID: 8300000, guid: 9593a7fd8a03641da8255ac7532c7d2d, type: 3}
+  - {fileID: 8300000, guid: a90cd731847cf4f6dbb8aa3c385413ef, type: 3}
+  - {fileID: 8300000, guid: a90cd731847cf4f6dbb8aa3c385413ef, type: 3}
+  - {fileID: 8300000, guid: b611adc270ccf4bda9f7745837f5e190, type: 3}
+  - {fileID: 8300000, guid: c6102b70c1e194cbb930af2ec5172f02, type: 3}
+  minTimeBetweenFootsteps: 0.6
   maxTimeBetweenFootsteps: 0.6
+--- !u!169 &570731446
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570731442}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.7913597
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &580293986
 GameObject:
   m_ObjectHideFlags: 0
@@ -3733,7 +3759,6 @@ Transform:
   - {fileID: 912629172}
   - {fileID: 1017822570}
   - {fileID: 1198506936}
-  - {fileID: 570731443}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
