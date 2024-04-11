@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e1b7a27c32cf0244a9aec0aa94a0b19, type: 3}
-  m_Name: Test1_InspectItem
+  m_Name: SwiatowidStatue_InspectItem
   m_EditorClassIdentifier: 
   itemName: "\u015Awiatowid Statue"
-  itemDesc: "\u015Awiatowid is a god revered ...."
+  itemDesc: "\u015Awiatowid the god revered in "
