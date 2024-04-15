@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadScreen.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\Slavic Folklore.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Slavic Folklore.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\voury\Desktop\Projects\Slavic-Folklore-Game\Slavic Folklore\Builds" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -139,7 +137,7 @@
       <workItem from="1712419080459" duration="2307000" />
       <workItem from="1712593527914" duration="3526000" />
       <workItem from="1712765657956" duration="621000" />
-      <workItem from="1713189368836" duration="286000" />
+      <workItem from="1713189368836" duration="881000" />
     </task>
     <servers />
   </component>
