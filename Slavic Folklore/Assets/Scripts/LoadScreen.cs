@@ -13,6 +13,8 @@ public class LoadScreen : MonoBehaviour
 
     public Image LoadingBarFill;
 
+    public GameObject IntroCanvas;
+
 
     public void LoadScene(int sceneId)
     {
@@ -24,6 +26,7 @@ public class LoadScreen : MonoBehaviour
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneId);
 
+        IntroCanvas.SetActive(false);
         LoadingScreen.SetActive(true);
         
         while (!operation.isDone)
