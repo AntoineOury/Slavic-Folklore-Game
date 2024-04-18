@@ -11,6 +11,11 @@ public class LoadScreen : MonoBehaviour
     
     public GameObject LoadingScreen;
 
+    public GameObject BG_Image;
+
+    public GameObject Book_BG;
+
+
     public Image LoadingBarFill;
 
 
@@ -25,6 +30,11 @@ public class LoadScreen : MonoBehaviour
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneId);
 
         LoadingScreen.SetActive(true);
+
+        BG_Image.SetActive(false);
+
+        Book_BG.SetActive(false);
+
         
         while (!operation.isDone)
         {
