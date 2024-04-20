@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     
     //Code from this amazing tutorial: https://youtu.be/cqNBA9Pslg8?si=9bRwbo8D6tvZeWQo
+    //And for sprite animation: https://www.youtube.com/watch?v=Sg_w8hIbp4Y&t=308s 
     
     
     public float speed;
@@ -17,12 +19,15 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
 
     public SpriteRenderer sr;
+
+    private Animator animator; 
     
     
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -46,6 +51,8 @@ public class PlayerMovement : MonoBehaviour
         float y = Input.GetAxis("Vertical");
         Vector3 moveDir = new Vector3(x, 0, y);
         rb.velocity = moveDir * speed;
+        
+        animator.SetFloat("xVelocity", Math.Abs(rb.velocity.x));
 
         if (x != 0 && x < 0)
         {

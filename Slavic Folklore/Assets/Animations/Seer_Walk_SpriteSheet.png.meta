@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8507ddb69a6edb34a9221c24991441a5
+guid: 244f90473aded224ba6cbf3d60df2a31
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,11 +101,47 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_0
+      name: Seer_Walk_SpriteSheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bffe5dd8a60be9d44942e17774396672
-      internalID: 1940385094
+      spriteID: 3dfdc2ef2a2cfd14f8e8a1d0706858ac
+      internalID: -1987963903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_1
+      name: Seer_Walk_SpriteSheet_1
       rect:
         serializedVersion: 2
         x: 720
@@ -140,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 091750ffc226a2543b2c96c7523f5948
-      internalID: 1592847446
+      spriteID: e0ca939e8168ef64091f5a78814cff50
+      internalID: -2069584490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_2
+      name: Seer_Walk_SpriteSheet_2
       rect:
         serializedVersion: 2
         x: 1440
@@ -161,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f11bed2283d1f4cb1968ddfe428cad
-      internalID: 475366487
+      spriteID: f45b8f9825b82ac4ea53cb999ec1df17
+      internalID: 1076342398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_3
+      name: Seer_Walk_SpriteSheet_3
       rect:
         serializedVersion: 2
         x: 2160
@@ -182,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a91f21136613cbe468b4020ebbfdcd73
-      internalID: -1180177791
+      spriteID: 4d7cece990b92f946bc16c8feaca07b7
+      internalID: 1104110845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_4
+      name: Seer_Walk_SpriteSheet_4
       rect:
         serializedVersion: 2
         x: 2880
@@ -203,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b73b6a3b46d8198499c244894cf56ffa
-      internalID: -1049191542
+      spriteID: 9f80cf5d3410fa5408e301f653c219f2
+      internalID: 127797475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_5
+      name: Seer_Walk_SpriteSheet_5
       rect:
         serializedVersion: 2
         x: 3600
@@ -224,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8d73c111e7fe6a44ac1c84d6c0f4e30
-      internalID: -1710003809
+      spriteID: 5641aa54479b2e44c95cdf29cb919f6f
+      internalID: -1789041067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_6
+      name: Seer_Walk_SpriteSheet_6
       rect:
         serializedVersion: 2
         x: 4320
@@ -245,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00936a60a7aa42499a1da7e1e4d2a3f
-      internalID: 641610727
+      spriteID: 91f90bcc86bbb7b4d8b2fe18f7295bc9
+      internalID: 1590348427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_7
+      name: Seer_Walk_SpriteSheet_7
       rect:
         serializedVersion: 2
         x: 5040
@@ -266,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bef7611b8c10f64a8600609041f1451
-      internalID: -1790357972
+      spriteID: 608de3bfea199004faf6a2f500f28220
+      internalID: 1918310915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_8
+      name: Seer_Walk_SpriteSheet_8
       rect:
         serializedVersion: 2
         x: 5760
@@ -287,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59893793d583da84ba8c38518e887325
-      internalID: 1221040227
+      spriteID: f3c22dcd32f29d9429f12ac2fa100305
+      internalID: -202921099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_9
+      name: Seer_Walk_SpriteSheet_9
       rect:
         serializedVersion: 2
         x: 6480
@@ -308,14 +344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5056205bb3ea1c347befa57bdc944768
-      internalID: -1556110580
+      spriteID: 95950c92b8e6f474d8887fa6bd9f0484
+      internalID: 1895438116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_10
+      name: Seer_Walk_SpriteSheet_10
       rect:
         serializedVersion: 2
         x: 7200
@@ -329,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df27b4368052194a985f085b507966b
-      internalID: 1593772250
+      spriteID: 26bf470ef3d0bc44f848d279d4616606
+      internalID: -751874053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_11
+      name: Seer_Walk_SpriteSheet_11
       rect:
         serializedVersion: 2
         x: 7920
@@ -350,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 958fc144ab50c654f8692ded980fe9ff
-      internalID: -929717243
+      spriteID: ce1c151c5e2f2de458c8680b0d483448
+      internalID: 1372404112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_12
+      name: Seer_Walk_SpriteSheet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -371,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ec6d8e5dbb21349bee10e7f576c27f
-      internalID: 43498922
+      spriteID: 382ac2b3a57075c41a94d8e496b6f82d
+      internalID: -828551311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_13
+      name: Seer_Walk_SpriteSheet_13
       rect:
         serializedVersion: 2
         x: 720
@@ -392,14 +428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2391ef0090af41f4f97c310e8205aef3
-      internalID: -1438437008
+      spriteID: c4268a71739cf2d419ba5df75e3c7f42
+      internalID: -1292434173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_14
+      name: Seer_Walk_SpriteSheet_14
       rect:
         serializedVersion: 2
         x: 1440
@@ -413,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adc38f8f100e10449a58796441819396
-      internalID: 182648402
+      spriteID: 63e7d8ed0b47ced44b36c02aa0370dd5
+      internalID: 1570770704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_15
+      name: Seer_Walk_SpriteSheet_15
       rect:
         serializedVersion: 2
         x: 2160
@@ -434,14 +470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa5ddcd83b554747b305401393df106
-      internalID: 750043931
+      spriteID: 38e20431b07d6834fbc5857f9b727f40
+      internalID: -787220834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_16
+      name: Seer_Walk_SpriteSheet_16
       rect:
         serializedVersion: 2
         x: 2880
@@ -455,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3d2677c91e9e884bb0200bfa3c92bf5
-      internalID: 1097409816
+      spriteID: d468e0dd9a120754d9253ec986a1b542
+      internalID: -896882351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_17
+      name: Seer_Walk_SpriteSheet_17
       rect:
         serializedVersion: 2
         x: 3600
@@ -476,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef605abe5c66bc48854d0b4ffd13041
-      internalID: -1385808042
+      spriteID: dceff77b48c7a6f4a9a7f3bb6f4b523b
+      internalID: -126024447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_18
+      name: Seer_Walk_SpriteSheet_18
       rect:
         serializedVersion: 2
         x: 4320
@@ -497,14 +533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30d4cacc70819ae41be2737edd1d3f7c
-      internalID: 1750215168
+      spriteID: cd6d1f56253780140829314d2ec87fc5
+      internalID: -1994601140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_19
+      name: Seer_Walk_SpriteSheet_19
       rect:
         serializedVersion: 2
         x: 5040
@@ -518,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d786103e68900244a3ac40db7d50e9a
-      internalID: -1327022630
+      spriteID: d2dc6c3b12a8b6c4b830abe875bed772
+      internalID: 1872778416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_20
+      name: Seer_Walk_SpriteSheet_20
       rect:
         serializedVersion: 2
         x: 5760
@@ -539,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c546848b8960ad43b64b16d28d20573
-      internalID: -905227698
+      spriteID: c7343d80d5d43014b8aedb03862d947a
+      internalID: 1994111926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_21
+      name: Seer_Walk_SpriteSheet_21
       rect:
         serializedVersion: 2
         x: 6480
@@ -560,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9db3752716e3b054c94f292cd2518d74
-      internalID: 1450179397
+      spriteID: 62889fe7aa3e038458634cdf4cc7b377
+      internalID: -70678151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_22
+      name: Seer_Walk_SpriteSheet_22
       rect:
         serializedVersion: 2
         x: 7200
@@ -581,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fbfffc5e1d5f7a49bfdec7fd6fc5383
-      internalID: 970603839
+      spriteID: 3510b969724a38a42b8116bb78a6ae7c
+      internalID: -508153603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_23
+      name: Seer_Walk_SpriteSheet_23
       rect:
         serializedVersion: 2
         x: 7920
@@ -602,14 +638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84c9f326b71bed84faaedecaa1b17a97
-      internalID: 93997474
+      spriteID: c30ed165ec799144f8765e4ae97f5400
+      internalID: -126619825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_24
+      name: Seer_Walk_SpriteSheet_24
       rect:
         serializedVersion: 2
         x: 0
@@ -623,14 +659,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3025ea7bc45b9a948ab9db7d53d7fa39
-      internalID: -1814939218
+      spriteID: deb751667b487aa47b6ea88708930463
+      internalID: 415124829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_25
+      name: Seer_Walk_SpriteSheet_25
       rect:
         serializedVersion: 2
         x: 720
@@ -644,14 +680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4acf9236df0e9444fb69ee45f2f5c736
-      internalID: -1896025459
+      spriteID: f15ec69f039e48f4c9094c831fd51a95
+      internalID: 157713518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_26
+      name: Seer_Walk_SpriteSheet_26
       rect:
         serializedVersion: 2
         x: 1440
@@ -665,14 +701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6c991bdee1902c44a83946d5146948b
-      internalID: 904890189
+      spriteID: e9cb5dd8c3770574790fb3b4e1106809
+      internalID: -1512565057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_27
+      name: Seer_Walk_SpriteSheet_27
       rect:
         serializedVersion: 2
         x: 2160
@@ -686,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f88e741a0c5ac848ade57599c54df4e
-      internalID: 297083669
+      spriteID: b2c2ef8eb5f38284a9e399341701beff
+      internalID: -1167507817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_28
+      name: Seer_Walk_SpriteSheet_28
       rect:
         serializedVersion: 2
         x: 2880
@@ -707,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5085dfcefec2f64190fc6c201829837
-      internalID: 1873631208
+      spriteID: 5f14fdd7e27f6624f93df34e4f10edda
+      internalID: 883214632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_29
+      name: Seer_Walk_SpriteSheet_29
       rect:
         serializedVersion: 2
         x: 3600
@@ -728,14 +764,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f13108e9aac235b4cb01589f767df83a
-      internalID: -1770294174
+      spriteID: 851f3e8bf19c8b448bbe44d327ee202b
+      internalID: -553583915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_30
+      name: Seer_Walk_SpriteSheet_30
       rect:
         serializedVersion: 2
         x: 4320
@@ -749,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be407da7c351b714184fa37a52ec47a2
-      internalID: -1851712869
+      spriteID: aaebdb9d95b71ae4fa68a15ea1e23379
+      internalID: -1841877430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_31
+      name: Seer_Walk_SpriteSheet_31
       rect:
         serializedVersion: 2
         x: 5040
@@ -770,14 +806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 937e58f8c73d3ee41810527bc544498b
-      internalID: -1988206552
+      spriteID: 789bbbbec7ccd394bbb27428b2870d07
+      internalID: -595373333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_32
+      name: Seer_Walk_SpriteSheet_32
       rect:
         serializedVersion: 2
         x: 5760
@@ -791,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e6e032fae0b4b242ada0ce9801c1bd4
-      internalID: 2082888615
+      spriteID: 8071af2e1f3dfb04e8b8cc9140ca2839
+      internalID: 836997323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_33
+      name: Seer_Walk_SpriteSheet_33
       rect:
         serializedVersion: 2
         x: 6480
@@ -812,14 +848,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e07e57ec9c351ef42ae38420f5bb719e
-      internalID: 956626370
+      spriteID: 5125621fe1c44a649a0c66263ff751d7
+      internalID: -102273903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_34
+      name: Seer_Walk_SpriteSheet_34
       rect:
         serializedVersion: 2
         x: 7200
@@ -833,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2a7057f252c4784588f885e478f8bea
-      internalID: -510713085
+      spriteID: 12f1e8a6c75cd4245bc5f85fa7f81be1
+      internalID: -1312794254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_35
+      name: Seer_Walk_SpriteSheet_35
       rect:
         serializedVersion: 2
         x: 7920
@@ -854,14 +890,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9107defedee13cf4abecd4b295a23a7d
-      internalID: 1757722195
+      spriteID: 264a54517071ef0439f8cce51c07e12c
+      internalID: -1396201341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_36
+      name: Seer_Walk_SpriteSheet_36
       rect:
         serializedVersion: 2
         x: 0
@@ -875,14 +911,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3094bab74ead31a4f89a44d6d78f3357
-      internalID: -1157643211
+      spriteID: 4db5d59fda512f74e996c9b9b0630e29
+      internalID: 210633540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_37
+      name: Seer_Walk_SpriteSheet_37
       rect:
         serializedVersion: 2
         x: 720
@@ -896,14 +932,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 919ceca0aa0d0934b93d3c11d752e90a
-      internalID: 1978220581
+      spriteID: 828cfbff45396e243b680fdbaced9d41
+      internalID: -295924775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_38
+      name: Seer_Walk_SpriteSheet_38
       rect:
         serializedVersion: 2
         x: 1440
@@ -917,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54b5d42467dcaf148b6306d66924cedb
-      internalID: -433507711
+      spriteID: f9b817dd810f80843b71f309e0cfdb8c
+      internalID: -379696126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_39
+      name: Seer_Walk_SpriteSheet_39
       rect:
         serializedVersion: 2
         x: 2160
@@ -938,14 +974,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ac28891422f0e46b82e1b45ac8e9c6
-      internalID: -149168046
+      spriteID: e34954353a6fe1f4c8dfdcfa87dc961f
+      internalID: 1534653329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_40
+      name: Seer_Walk_SpriteSheet_40
       rect:
         serializedVersion: 2
         x: 2880
@@ -959,14 +995,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbbcf6bc335addc4d8052bcc5cf453d2
-      internalID: 13503142
+      spriteID: 3a9ccfcf9092b804ba5b83e941972c41
+      internalID: 575719853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_41
+      name: Seer_Walk_SpriteSheet_41
       rect:
         serializedVersion: 2
         x: 3600
@@ -980,14 +1016,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 031b97ad9cd740942b894eee5251a0db
-      internalID: -1665991730
+      spriteID: 066a7c0ab5c287d45ba28d5c8228fd07
+      internalID: -1445844502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_42
+      name: Seer_Walk_SpriteSheet_42
       rect:
         serializedVersion: 2
         x: 4320
@@ -1001,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27839e24459633d4f9fc6182c1b41316
-      internalID: 1153826137
+      spriteID: 5f3d79adedbac9e468a25b14a1c6eaa5
+      internalID: 933133243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_43
+      name: Seer_Walk_SpriteSheet_43
       rect:
         serializedVersion: 2
         x: 5040
@@ -1022,14 +1058,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aadea54de80abd14e8275137319139d8
-      internalID: -2016068839
+      spriteID: 65965b90089c30842ba49c8a35f36704
+      internalID: 2142766135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_44
+      name: Seer_Walk_SpriteSheet_44
       rect:
         serializedVersion: 2
         x: 5760
@@ -1043,14 +1079,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edd63f1f10c849f4ab6ffdfaed9d81a5
-      internalID: -70426765
+      spriteID: a6a764aa5beba0c448767d8fc6a5ae2c
+      internalID: -2143623473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_45
+      name: Seer_Walk_SpriteSheet_45
       rect:
         serializedVersion: 2
         x: 6480
@@ -1064,14 +1100,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba883696aede58409aba7b572a159e0
-      internalID: -1509283623
+      spriteID: fc984138dcf6c7e4aa03e2ee68b925f6
+      internalID: -390782294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_46
+      name: Seer_Walk_SpriteSheet_46
       rect:
         serializedVersion: 2
         x: 7200
@@ -1085,14 +1121,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c610f3388a439489e60fec5bb6b212
-      internalID: 2027911529
+      spriteID: 565bf7aaccfb5a24aa9f357be7b4aec4
+      internalID: 319370681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_47
+      name: Seer_Walk_SpriteSheet_47
       rect:
         serializedVersion: 2
         x: 7920
@@ -1106,14 +1142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b8bde2263734de4db5523513ab4fcbe
-      internalID: 1763460329
+      spriteID: 80fd66ec35c97dc418fbbde647441870
+      internalID: -1496209774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_48
+      name: Seer_Walk_SpriteSheet_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1127,14 +1163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd27418df5a3a1c42aa53eaa255e12a2
-      internalID: 463334350
+      spriteID: b9031da59d96d5d48b191d54af59b706
+      internalID: -1243540988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_49
+      name: Seer_Walk_SpriteSheet_49
       rect:
         serializedVersion: 2
         x: 720
@@ -1148,14 +1184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e38f3d3b71665b4991e026c9d7dd4d8
-      internalID: 1205851357
+      spriteID: 799874c124f4c974aa53d59d74688a45
+      internalID: 255744436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_50
+      name: Seer_Walk_SpriteSheet_50
       rect:
         serializedVersion: 2
         x: 1440
@@ -1169,14 +1205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0538b8cf0c0a9641834b394e4dcdb64
-      internalID: -596125008
+      spriteID: 4f8cff1680e0a1d4586f55ca1fca0b10
+      internalID: 1376665556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_51
+      name: Seer_Walk_SpriteSheet_51
       rect:
         serializedVersion: 2
         x: 2160
@@ -1190,14 +1226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a095270a42d04ba4896219350cc63c87
-      internalID: 12169662
+      spriteID: bf6fbbf4d3c036e468ed902c29888826
+      internalID: 272179582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_52
+      name: Seer_Walk_SpriteSheet_52
       rect:
         serializedVersion: 2
         x: 2880
@@ -1211,14 +1247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad1d6efda49b6f46b3b67cdc6f8f77a
-      internalID: -1564988550
+      spriteID: 678441db2e04e5c42a8d77081a2e71b4
+      internalID: 1426650839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_53
+      name: Seer_Walk_SpriteSheet_53
       rect:
         serializedVersion: 2
         x: 3600
@@ -1232,14 +1268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d34c03dbd78f4c449aec129a8a59a8c
-      internalID: -1053253167
+      spriteID: 22c20ebfcb38ca34a9e6948ecad5a11c
+      internalID: -102227096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_54
+      name: Seer_Walk_SpriteSheet_54
       rect:
         serializedVersion: 2
         x: 4320
@@ -1253,14 +1289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2079f1692d85b50428a7db0510778cae
-      internalID: -770667869
+      spriteID: ef05bcff8d718a042a88015f14baf447
+      internalID: 1245772277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_55
+      name: Seer_Walk_SpriteSheet_55
       rect:
         serializedVersion: 2
         x: 5040
@@ -1274,14 +1310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 251bfbebafcd5f14e8c8b8d5f821c4cb
-      internalID: -453782007
+      spriteID: 4bc324979e654c949b39a2b8ed8e7600
+      internalID: -1912537650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_56
+      name: Seer_Walk_SpriteSheet_56
       rect:
         serializedVersion: 2
         x: 5760
@@ -1295,14 +1331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f218d5a384debc147baf498ab5ec70ea
-      internalID: -1454209821
+      spriteID: 1719365f20b4e64429926ade8c1444fa
+      internalID: 911918565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_57
+      name: Seer_Walk_SpriteSheet_57
       rect:
         serializedVersion: 2
         x: 6480
@@ -1316,14 +1352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88a97ce93d8079049b25f413c4e9e75e
-      internalID: 1170582082
+      spriteID: 9b4277196d2439946860e4e4316f0c9b
+      internalID: 1589425102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_58
+      name: Seer_Walk_SpriteSheet_58
       rect:
         serializedVersion: 2
         x: 7200
@@ -1337,14 +1373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79bd5d7abef849043a602d4743b8d4a0
-      internalID: 1800232371
+      spriteID: 0111ef17548fed8489cfb612d3854b93
+      internalID: 903743560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seer_Idle_SpriteSheet_59
+      name: Seer_Walk_SpriteSheet_59
       rect:
         serializedVersion: 2
         x: 7920
@@ -1358,8 +1394,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dddcbdfcfa346084fb9e306f0fd373d5
-      internalID: -68785827
+      spriteID: 4ffb8ffaf16bc5c4687355deab9d4fa7
+      internalID: 1718690783
       vertices: []
       indices: 
       edges: []
@@ -1367,7 +1403,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9f181f571cc3df24d958ea1b29017852
+    spriteID: 709fbc9cfca49cf40b27d767ec26c558
     internalID: 0
     vertices: []
     indices: 
@@ -1375,66 +1411,66 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Seer_Idle_SpriteSheet_0: 1940385094
-      Seer_Idle_SpriteSheet_1: 1592847446
-      Seer_Idle_SpriteSheet_10: 1593772250
-      Seer_Idle_SpriteSheet_11: -929717243
-      Seer_Idle_SpriteSheet_12: 43498922
-      Seer_Idle_SpriteSheet_13: -1438437008
-      Seer_Idle_SpriteSheet_14: 182648402
-      Seer_Idle_SpriteSheet_15: 750043931
-      Seer_Idle_SpriteSheet_16: 1097409816
-      Seer_Idle_SpriteSheet_17: -1385808042
-      Seer_Idle_SpriteSheet_18: 1750215168
-      Seer_Idle_SpriteSheet_19: -1327022630
-      Seer_Idle_SpriteSheet_2: 475366487
-      Seer_Idle_SpriteSheet_20: -905227698
-      Seer_Idle_SpriteSheet_21: 1450179397
-      Seer_Idle_SpriteSheet_22: 970603839
-      Seer_Idle_SpriteSheet_23: 93997474
-      Seer_Idle_SpriteSheet_24: -1814939218
-      Seer_Idle_SpriteSheet_25: -1896025459
-      Seer_Idle_SpriteSheet_26: 904890189
-      Seer_Idle_SpriteSheet_27: 297083669
-      Seer_Idle_SpriteSheet_28: 1873631208
-      Seer_Idle_SpriteSheet_29: -1770294174
-      Seer_Idle_SpriteSheet_3: -1180177791
-      Seer_Idle_SpriteSheet_30: -1851712869
-      Seer_Idle_SpriteSheet_31: -1988206552
-      Seer_Idle_SpriteSheet_32: 2082888615
-      Seer_Idle_SpriteSheet_33: 956626370
-      Seer_Idle_SpriteSheet_34: -510713085
-      Seer_Idle_SpriteSheet_35: 1757722195
-      Seer_Idle_SpriteSheet_36: -1157643211
-      Seer_Idle_SpriteSheet_37: 1978220581
-      Seer_Idle_SpriteSheet_38: -433507711
-      Seer_Idle_SpriteSheet_39: -149168046
-      Seer_Idle_SpriteSheet_4: -1049191542
-      Seer_Idle_SpriteSheet_40: 13503142
-      Seer_Idle_SpriteSheet_41: -1665991730
-      Seer_Idle_SpriteSheet_42: 1153826137
-      Seer_Idle_SpriteSheet_43: -2016068839
-      Seer_Idle_SpriteSheet_44: -70426765
-      Seer_Idle_SpriteSheet_45: -1509283623
-      Seer_Idle_SpriteSheet_46: 2027911529
-      Seer_Idle_SpriteSheet_47: 1763460329
-      Seer_Idle_SpriteSheet_48: 463334350
-      Seer_Idle_SpriteSheet_49: 1205851357
-      Seer_Idle_SpriteSheet_5: -1710003809
-      Seer_Idle_SpriteSheet_50: -596125008
-      Seer_Idle_SpriteSheet_51: 12169662
-      Seer_Idle_SpriteSheet_52: -1564988550
-      Seer_Idle_SpriteSheet_53: -1053253167
-      Seer_Idle_SpriteSheet_54: -770667869
-      Seer_Idle_SpriteSheet_55: -453782007
-      Seer_Idle_SpriteSheet_56: -1454209821
-      Seer_Idle_SpriteSheet_57: 1170582082
-      Seer_Idle_SpriteSheet_58: 1800232371
-      Seer_Idle_SpriteSheet_59: -68785827
-      Seer_Idle_SpriteSheet_6: 641610727
-      Seer_Idle_SpriteSheet_7: -1790357972
-      Seer_Idle_SpriteSheet_8: 1221040227
-      Seer_Idle_SpriteSheet_9: -1556110580
+      Seer_Walk_SpriteSheet_0: -1987963903
+      Seer_Walk_SpriteSheet_1: -2069584490
+      Seer_Walk_SpriteSheet_10: -751874053
+      Seer_Walk_SpriteSheet_11: 1372404112
+      Seer_Walk_SpriteSheet_12: -828551311
+      Seer_Walk_SpriteSheet_13: -1292434173
+      Seer_Walk_SpriteSheet_14: 1570770704
+      Seer_Walk_SpriteSheet_15: -787220834
+      Seer_Walk_SpriteSheet_16: -896882351
+      Seer_Walk_SpriteSheet_17: -126024447
+      Seer_Walk_SpriteSheet_18: -1994601140
+      Seer_Walk_SpriteSheet_19: 1872778416
+      Seer_Walk_SpriteSheet_2: 1076342398
+      Seer_Walk_SpriteSheet_20: 1994111926
+      Seer_Walk_SpriteSheet_21: -70678151
+      Seer_Walk_SpriteSheet_22: -508153603
+      Seer_Walk_SpriteSheet_23: -126619825
+      Seer_Walk_SpriteSheet_24: 415124829
+      Seer_Walk_SpriteSheet_25: 157713518
+      Seer_Walk_SpriteSheet_26: -1512565057
+      Seer_Walk_SpriteSheet_27: -1167507817
+      Seer_Walk_SpriteSheet_28: 883214632
+      Seer_Walk_SpriteSheet_29: -553583915
+      Seer_Walk_SpriteSheet_3: 1104110845
+      Seer_Walk_SpriteSheet_30: -1841877430
+      Seer_Walk_SpriteSheet_31: -595373333
+      Seer_Walk_SpriteSheet_32: 836997323
+      Seer_Walk_SpriteSheet_33: -102273903
+      Seer_Walk_SpriteSheet_34: -1312794254
+      Seer_Walk_SpriteSheet_35: -1396201341
+      Seer_Walk_SpriteSheet_36: 210633540
+      Seer_Walk_SpriteSheet_37: -295924775
+      Seer_Walk_SpriteSheet_38: -379696126
+      Seer_Walk_SpriteSheet_39: 1534653329
+      Seer_Walk_SpriteSheet_4: 127797475
+      Seer_Walk_SpriteSheet_40: 575719853
+      Seer_Walk_SpriteSheet_41: -1445844502
+      Seer_Walk_SpriteSheet_42: 933133243
+      Seer_Walk_SpriteSheet_43: 2142766135
+      Seer_Walk_SpriteSheet_44: -2143623473
+      Seer_Walk_SpriteSheet_45: -390782294
+      Seer_Walk_SpriteSheet_46: 319370681
+      Seer_Walk_SpriteSheet_47: -1496209774
+      Seer_Walk_SpriteSheet_48: -1243540988
+      Seer_Walk_SpriteSheet_49: 255744436
+      Seer_Walk_SpriteSheet_5: -1789041067
+      Seer_Walk_SpriteSheet_50: 1376665556
+      Seer_Walk_SpriteSheet_51: 272179582
+      Seer_Walk_SpriteSheet_52: 1426650839
+      Seer_Walk_SpriteSheet_53: -102227096
+      Seer_Walk_SpriteSheet_54: 1245772277
+      Seer_Walk_SpriteSheet_55: -1912537650
+      Seer_Walk_SpriteSheet_56: 911918565
+      Seer_Walk_SpriteSheet_57: 1589425102
+      Seer_Walk_SpriteSheet_58: 903743560
+      Seer_Walk_SpriteSheet_59: 1718690783
+      Seer_Walk_SpriteSheet_6: 1590348427
+      Seer_Walk_SpriteSheet_7: 1918310915
+      Seer_Walk_SpriteSheet_8: -202921099
+      Seer_Walk_SpriteSheet_9: 1895438116
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
