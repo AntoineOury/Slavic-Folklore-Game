@@ -17,13 +17,17 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer sr;
 
     private Animator animator; 
-    
-    
+    private FootstepController footstepController;
+
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize Rigidbody and Animator
         rb = gameObject.GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+
+        // Get the FootstepController component from a child object
+        footstepController = GetComponentInChildren<FootstepController>();
     }
 
     void Update()
@@ -42,13 +46,16 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        // Movement input
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         Vector3 moveDir = new Vector3(x, 0, y);
         rb.velocity = moveDir * speed;
-        
-        animator.SetFloat("xVelocity", Math.Abs(rb.velocity.x));
 
+        // Update animator
+        animator.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
+
+        // Flip sprite
         if (x != 0 && x < 0)
         {
             sr.flipX = true;
@@ -58,6 +65,15 @@ public class PlayerMovement : MonoBehaviour
             sr.flipX = false;
         }
 
-
+        // Check if the player is walking or not and call the appropriate methods
+        if (rb.velocity.magnitude > 0)
+        {
+            footstepController.StartWalking();
+        }
+        else
+        {
+            footstepController.StopWalking();
+        }
     }
+
 }
