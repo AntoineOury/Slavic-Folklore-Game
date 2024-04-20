@@ -58,14 +58,6 @@ public class PlayerMovement : MonoBehaviour
             sr.flipX = false;
         }
 
-        // Check if the player is walking or not and call the appropriate methods
-        if (moveDir.magnitude > 0)
-        {
-            footstepController.StartWalking();
-        }
-        else
-        {
-            footstepController.StopWalking();
-        }
+
     }
 }
