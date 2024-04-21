@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1b7a27c32cf0244a9aec0aa94a0b19, type: 3}
   m_Name: SwiatowidStatue_InspectItem
   m_EditorClassIdentifier: 
-  itemName: "\u015Awiatowid Statue"
-  itemDesc: "\u015Awiatowid the god revered in "
+  itemName: "Swar\xF3g Statue"
+  itemDesc: "Swar\xF3g is the god of fire and blacksmithing. He's considered\nthe
+    father of Dad\u017Ab\xF3g and Swaro\u017Cyc. He's mostly present in Eastern Slavic
+    tribes."
