@@ -19,6 +19,10 @@ public class InspectTrigger : MonoBehaviour
     public GameObject player;
     public Image inspectIcon;
     public GameObject motankaGuide;
+    
+    //UI that disappears when MotankaGuide opens
+    public Button diaryButton;
+    public Button motankaButton;
 
     //mainCam post processing volume (for background blur)
     public PostProcessVolume ppVol;
@@ -58,11 +62,17 @@ public class InspectTrigger : MonoBehaviour
             //display Guide
             motankaGuide.gameObject.SetActive(true);
             
+            //blur background when Guide is opened
+            ppVol.enabled = true;
+            
+            //hide other menu buttons
+            diaryButton.gameObject.SetActive(false);
+            motankaButton.gameObject.SetActive(false);
+            
+            
             //inspect prompt disappears after Guide displayed
             inspectIcon.gameObject.SetActive(false);
             
-            //blur background when Guide is opened
-            ppVol.enabled = true;
         }
     }
 }
