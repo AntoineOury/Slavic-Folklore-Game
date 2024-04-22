@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Wodnik_EntitiesSheet
   m_EditorClassIdentifier: 
   name: Wodnik
-  partialInfo: Dangerous water spirit...
+  partialInfo: "Dangerous water spirit... Carefull not to be dragged into the water
+    where they live! \n(more information unlocks after: Wodnik)"
   fullInfo: Dangerous water spirit that lures its preys close to the water and drowns
     them.
   artShadow: {fileID: 21300000, guid: 73e510c712e94fa458be4b8c822ab229, type: 3}
