@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cd18fcb2d7b26a47b84e09eeb5596a5, type: 3}
-  m_Name: GoHome_QuestSO
+  m_Name: FollowBoris_QuestSO
   m_EditorClassIdentifier: 
-  questName: Go Home
+  questName: Get Home

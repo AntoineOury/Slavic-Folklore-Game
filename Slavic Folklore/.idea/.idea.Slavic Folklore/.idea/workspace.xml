@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="" />
+    <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/QuestSO/GoHome_QuestSO.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/QuestSO/GoHome_QuestSO.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Timelines/FollowBoris_Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timelines/FollowBoris_Timeline.playable" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
