@@ -5,8 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "EntitiesSheet", menuName = "Scriptable Objects/Entities Page")]
 public class EntitiesSO : ScriptableObject
 {
+   
    public new string name;
+   [TextArea (2, 5)]
    public string partialInfo;
+   [TextArea (2, 5)]
    public string fullInfo;
 
    //artwork of the entity before the quest for it has been completed and after

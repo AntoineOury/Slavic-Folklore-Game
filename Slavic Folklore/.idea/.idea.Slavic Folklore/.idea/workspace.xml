@@ -7,9 +7,9 @@
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/QuestSO/GoHome_QuestSO.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/QuestSO/GoHome_QuestSO.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Timelines/FollowBoris_Timeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Timelines/FollowBoris_Timeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/EntitiesSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/EntitiesSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Rusalka_EntitiesSheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Rusalka_EntitiesSheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
