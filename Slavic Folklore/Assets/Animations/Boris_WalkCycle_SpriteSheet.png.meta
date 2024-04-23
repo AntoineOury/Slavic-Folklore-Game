@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: c7f3c9d48c0323e4296a0534aed06533
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86013f06aac73ab4180741547ca62e22
+      internalID: 2023422712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c98d88c8f9e6c9468a95a45e761acc5
+      internalID: -420935962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c88ef8a99cd2e44d931dba327c0e937
+      internalID: -1434207085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1afcd9e6812e43bb89417cf9ed40c
+      internalID: -1070306865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaf21fc2de3d72439a7ea6a25d3a859
+      internalID: 740214152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d274826a1748ee6489856fab3d5f0f2f
+      internalID: 311855891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601dcea6dc9634845b262ed0fd0e605b
+      internalID: -268173643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08a07750ea054148ab0a104600b4220
+      internalID: 1909766921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a68ae2bbc631954aa4d310e625f054a
+      internalID: -1726435505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8283f383370c5d4182151b87114e9b2
+      internalID: 1507885143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58a541113729394d998cf57d7bbad87
+      internalID: -896595534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f464c0c242b9c4e9fbef65dc38a14c
+      internalID: -1043160293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9edbc211af61e47b1b1bb467744dc9
+      internalID: 1374541548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fd70af4c220fd4eb405b15ab3f331c
+      internalID: -1727845598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a663ce44cf302340b30087efee85caa
+      internalID: -1316114610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853b21bb5b71a254d851fd9110f4843f
+      internalID: 990495765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac2ad553e5c8384b8ddd3e7531e8dcb
+      internalID: -336994876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b924b46723fdf145975957e4e8c5a48
+      internalID: -518127893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2049695bb3cb924ca7006de5b45b7f7
+      internalID: 1729727601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614db7ffd1ce6e54993c69225883c6eb
+      internalID: 44128675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be722a9e06b3cb49afe2c8266de3cef
+      internalID: 1701013869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9001e3b0aa513e942a95e1e7a0d7e724
+      internalID: -1268608329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a50c703b924e46a726a98a7167ebc
+      internalID: -820043338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b1cca4190417845a6eceb6c70874d2
+      internalID: 251958060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad557ad1be475b44f8a090bffdd8a897
+      internalID: -686141571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016e26d6c79f0ca4487f6ea7f4f45362
+      internalID: 1369200535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ec30b8d46b7d94da5a10872b770487
+      internalID: -1417503283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaa91c555620c142a354166c026273c
+      internalID: 1690608234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0915fea01db6812428677b20428c39f7
+      internalID: -222472473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9ef9d6cb377194db5ecebe8201c3e2
+      internalID: 738321908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c673dd5a77dd47a12ac62690fc5c1
+      internalID: 190103732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc9b035a1d0394439fbe5487ad949c9
+      internalID: -1478095172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f2c3d76f746b34fb5192c557ccb112
+      internalID: 1030463241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da28cc6eb02d4e429b01702986dc603
+      internalID: -819262807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c302d6ee8058944a8dc546b94ddfdf0
+      internalID: -1572262907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ecf10278142da4e938dc5b1d227a0b
+      internalID: 112524744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da64993d52e16f43bfbef108ea25d9d
+      internalID: -1785595216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637288105af639a4fa0c1a56f0921a01
+      internalID: -1419582785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23f38704538db64a9d21e4a79473934
+      internalID: -114026729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78ae68d8cc09c94ba6dee4d410780f5
+      internalID: 874371021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de49048ee53c254b99acdf48cacca07
+      internalID: -96399961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc72f8384bcb5434a8ca3715a52f2924
+      internalID: 2060180887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246cb80a3cedcf345a021779a14e9a0b
+      internalID: 801790586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835968e8a23cceb4da02d425e6ad78e7
+      internalID: -1641738411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2820bb93a5da8649817ad50a790b8c0
+      internalID: -714571313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b735eb81004a4abfc93f50f24d4cf
+      internalID: -778892291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc3378fe8e5fef4f88993fba948b744
+      internalID: -1686143952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee3006910b88fe479cf5ca55e0fc3c7
+      internalID: -396409623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3108bb99ed7404e916e1b377b5dcc1
+      internalID: 807497358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338420900ba2cde408d3517e3c70e37d
+      internalID: -464024708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba3bcd8d7fa96541aef3cde83997ef2
+      internalID: -447807061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5b33922068a39498771b97a30a35c7
+      internalID: -590494576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83aa99d2445f0140b1e8319d0217f5b
+      internalID: -659256515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bdd752eb0b66646915cf72b2a9006c
+      internalID: 762820023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07203937a8635b7428212fb8c08b96c7
+      internalID: -1736681028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda9cbc9c4d9cb4409e8f5f03e884b38
+      internalID: -1184825788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e9e4cb13871948b14dd7d00dd35b5
+      internalID: -1934166450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda1def7300748d428ca40fd09621ebf
+      internalID: -1334067552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719bd1d3af680a745b69c08262e04550
+      internalID: -1874489042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_WalkCycle_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35794f5117bd6d47860387913faf9f1
+      internalID: -996224403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1daddbe06a11c5a4bafa4ab85c293cb3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boris_WalkCycle_SpriteSheet_0: 2023422712
+      Boris_WalkCycle_SpriteSheet_1: -420935962
+      Boris_WalkCycle_SpriteSheet_10: -896595534
+      Boris_WalkCycle_SpriteSheet_11: -1043160293
+      Boris_WalkCycle_SpriteSheet_12: 1374541548
+      Boris_WalkCycle_SpriteSheet_13: -1727845598
+      Boris_WalkCycle_SpriteSheet_14: -1316114610
+      Boris_WalkCycle_SpriteSheet_15: 990495765
+      Boris_WalkCycle_SpriteSheet_16: -336994876
+      Boris_WalkCycle_SpriteSheet_17: -518127893
+      Boris_WalkCycle_SpriteSheet_18: 1729727601
+      Boris_WalkCycle_SpriteSheet_19: 44128675
+      Boris_WalkCycle_SpriteSheet_2: -1434207085
+      Boris_WalkCycle_SpriteSheet_20: 1701013869
+      Boris_WalkCycle_SpriteSheet_21: -1268608329
+      Boris_WalkCycle_SpriteSheet_22: -820043338
+      Boris_WalkCycle_SpriteSheet_23: 251958060
+      Boris_WalkCycle_SpriteSheet_24: -686141571
+      Boris_WalkCycle_SpriteSheet_25: 1369200535
+      Boris_WalkCycle_SpriteSheet_26: -1417503283
+      Boris_WalkCycle_SpriteSheet_27: 1690608234
+      Boris_WalkCycle_SpriteSheet_28: -222472473
+      Boris_WalkCycle_SpriteSheet_29: 738321908
+      Boris_WalkCycle_SpriteSheet_3: -1070306865
+      Boris_WalkCycle_SpriteSheet_30: 190103732
+      Boris_WalkCycle_SpriteSheet_31: -1478095172
+      Boris_WalkCycle_SpriteSheet_32: 1030463241
+      Boris_WalkCycle_SpriteSheet_33: -819262807
+      Boris_WalkCycle_SpriteSheet_34: -1572262907
+      Boris_WalkCycle_SpriteSheet_35: 112524744
+      Boris_WalkCycle_SpriteSheet_36: -1785595216
+      Boris_WalkCycle_SpriteSheet_37: -1419582785
+      Boris_WalkCycle_SpriteSheet_38: -114026729
+      Boris_WalkCycle_SpriteSheet_39: 874371021
+      Boris_WalkCycle_SpriteSheet_4: 740214152
+      Boris_WalkCycle_SpriteSheet_40: -96399961
+      Boris_WalkCycle_SpriteSheet_41: 2060180887
+      Boris_WalkCycle_SpriteSheet_42: 801790586
+      Boris_WalkCycle_SpriteSheet_43: -1641738411
+      Boris_WalkCycle_SpriteSheet_44: -714571313
+      Boris_WalkCycle_SpriteSheet_45: -778892291
+      Boris_WalkCycle_SpriteSheet_46: -1686143952
+      Boris_WalkCycle_SpriteSheet_47: -396409623
+      Boris_WalkCycle_SpriteSheet_48: 807497358
+      Boris_WalkCycle_SpriteSheet_49: -464024708
+      Boris_WalkCycle_SpriteSheet_5: 311855891
+      Boris_WalkCycle_SpriteSheet_50: -447807061
+      Boris_WalkCycle_SpriteSheet_51: -590494576
+      Boris_WalkCycle_SpriteSheet_52: -659256515
+      Boris_WalkCycle_SpriteSheet_53: 762820023
+      Boris_WalkCycle_SpriteSheet_54: -1736681028
+      Boris_WalkCycle_SpriteSheet_55: -1184825788
+      Boris_WalkCycle_SpriteSheet_56: -1934166450
+      Boris_WalkCycle_SpriteSheet_57: -1334067552
+      Boris_WalkCycle_SpriteSheet_58: -1874489042
+      Boris_WalkCycle_SpriteSheet_59: -996224403
+      Boris_WalkCycle_SpriteSheet_6: -268173643
+      Boris_WalkCycle_SpriteSheet_7: 1909766921
+      Boris_WalkCycle_SpriteSheet_8: -1726435505
+      Boris_WalkCycle_SpriteSheet_9: 1507885143
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

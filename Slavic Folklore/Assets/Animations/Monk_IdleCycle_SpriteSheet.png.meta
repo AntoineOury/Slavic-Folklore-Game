@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 6275e94b224d72c42ab8491a6f2fc25c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fa8298745d8de4fb634326019d0bbb
+      internalID: 1526309402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432c3306570fa134b8e1b72f244ca337
+      internalID: -1555016484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d790cff81fab442a39bbb83bdf9318
+      internalID: -14736302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eec84ac59b99f48976f3e3bfc184d1
+      internalID: 242920598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13588b983ef72094f9aa474ec34f0366
+      internalID: -633045511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7164ebda88076e04fb2ce9f833e33f7e
+      internalID: -919571541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a092cd67b41efd84aa00dcab4f13093f
+      internalID: -1627375129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b81c2ed75975414ab3b0c90bb7abbdb
+      internalID: -1882623694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9187ff93a9b325847a904567051aaa7e
+      internalID: 90051124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d2b6a10cc534a459c488ccad0b2f7e
+      internalID: 470452074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b9dcbb7dd29fe41bd51acccddc8d61
+      internalID: 678109732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208c529cfe1155642acfd395236753d6
+      internalID: -2122568827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8e878273827f948b0037ebe3265771
+      internalID: 2104619448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890f54b3911b40b4a85b646fbd6f0435
+      internalID: 864773280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde04fcc7b989fb40b1e7ca2ad30e157
+      internalID: -1761417842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2db38decde7a34782c052b9fb60dd7
+      internalID: 1789788218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de835afcc889654685da515441bd48e
+      internalID: 547647543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ca183830807c040809840bbb74bb05
+      internalID: 1030888838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552b7cbea4283d744a824b8b36f2c270
+      internalID: 848776028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652d85d22b314b74087ef6f6fe7a5d90
+      internalID: -395484765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1f12dc26b97b340aedacbed4ee882f
+      internalID: 912009302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897b99994df4c4740a0164666ea20e21
+      internalID: 1822403530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d74852f7951c943ae4611a6fd310b4
+      internalID: -1524952472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3496fec29972e58479726ba2339123ed
+      internalID: -710824050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e982c6514e611f049bb6cedabe339cae
+      internalID: -136597620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75969f25ce237c40a7b58723ce2ceb8
+      internalID: 1268601503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9774144c4200a99438bef3716d9fb2ed
+      internalID: 850246880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e4fc907960274488bebd30e49f5dd7
+      internalID: -62576160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372b62edfb1fa04aad30c618b3aad01
+      internalID: 575106334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e565774b0545f4093cfe10e1296781
+      internalID: 2141252978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2757de289d51354ba44a417329d0da6
+      internalID: 617782682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7c5fe4144080b4c9be4ca8d144487f
+      internalID: -1704108920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef474b02fbeb54438fc565563594538
+      internalID: -1887294618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1e223f8d0846c47a43216a51d48b0e
+      internalID: 1231438706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3376533dc2d14e04f8901b4d3705b1cf
+      internalID: 1689773891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297fa880970cde40ab1aeb30ebd8d0b
+      internalID: -1653998451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df158d4ee850ec45aaec5bad5eecbbd
+      internalID: 317153731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2e0feb7f699d8478be8b7b67eef2c9
+      internalID: -1162829128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca19a2019fc582428cf36aa970f296e
+      internalID: -653931349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c60a29fae1d1c409e8debef7a967f8
+      internalID: 1897364815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c417cc7e983441aa700f0936de422
+      internalID: 312967546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0ca49a2ebbeab4f858a0cc44a4d599
+      internalID: 1419147083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2091bb43e3d1e22498a439efda9f8a18
+      internalID: -1815637100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d875f89bd3461764199164175e4827f4
+      internalID: 301476724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0df3375f6d4c1c4e908228fc571b3b0
+      internalID: -1655389309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36bcac1eeafac4448defd92512884f5
+      internalID: -282622039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc029e6dd5ad00444901937cafac6f87
+      internalID: -1086046198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4109f185576cd44a29a1e6ff6fdf2a
+      internalID: -464387553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1c0718683bbd34ea75616c6c9484dd
+      internalID: -29693338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cca9f2bee49ef479a6ebb5d5518e4c
+      internalID: 1812779804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb39a925d17ed24d8204eeef156d238
+      internalID: -102178425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d361323a10ed04383beccbe6a2ca9f
+      internalID: 1718897117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0602d9ed903bc4d86db0fb5003340e
+      internalID: -498243924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c43c7c58328aa49b4ed8f07b39de19
+      internalID: -950026037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5d9664f3f03ae46b23272486248d4a
+      internalID: 78724475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3617c718c6cd73748b69e7f9f3d9b029
+      internalID: 1538193492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced119205a7809f4d847696aecc6c31b
+      internalID: 1763382566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42f94544ee942e4893ff9276f923ae5
+      internalID: 230767286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b3f5df388625f4cac02f5d6e69bb07
+      internalID: 6918247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monk_IdleCycle_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740007ea6cecb849a99932c6794e962
+      internalID: -6565239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b1a06b68419f66c44b014d196d5ad5ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Monk_IdleCycle_SpriteSheet_0: 1526309402
+      Monk_IdleCycle_SpriteSheet_1: -1555016484
+      Monk_IdleCycle_SpriteSheet_10: 678109732
+      Monk_IdleCycle_SpriteSheet_11: -2122568827
+      Monk_IdleCycle_SpriteSheet_12: 2104619448
+      Monk_IdleCycle_SpriteSheet_13: 864773280
+      Monk_IdleCycle_SpriteSheet_14: -1761417842
+      Monk_IdleCycle_SpriteSheet_15: 1789788218
+      Monk_IdleCycle_SpriteSheet_16: 547647543
+      Monk_IdleCycle_SpriteSheet_17: 1030888838
+      Monk_IdleCycle_SpriteSheet_18: 848776028
+      Monk_IdleCycle_SpriteSheet_19: -395484765
+      Monk_IdleCycle_SpriteSheet_2: -14736302
+      Monk_IdleCycle_SpriteSheet_20: 912009302
+      Monk_IdleCycle_SpriteSheet_21: 1822403530
+      Monk_IdleCycle_SpriteSheet_22: -1524952472
+      Monk_IdleCycle_SpriteSheet_23: -710824050
+      Monk_IdleCycle_SpriteSheet_24: -136597620
+      Monk_IdleCycle_SpriteSheet_25: 1268601503
+      Monk_IdleCycle_SpriteSheet_26: 850246880
+      Monk_IdleCycle_SpriteSheet_27: -62576160
+      Monk_IdleCycle_SpriteSheet_28: 575106334
+      Monk_IdleCycle_SpriteSheet_29: 2141252978
+      Monk_IdleCycle_SpriteSheet_3: 242920598
+      Monk_IdleCycle_SpriteSheet_30: 617782682
+      Monk_IdleCycle_SpriteSheet_31: -1704108920
+      Monk_IdleCycle_SpriteSheet_32: -1887294618
+      Monk_IdleCycle_SpriteSheet_33: 1231438706
+      Monk_IdleCycle_SpriteSheet_34: 1689773891
+      Monk_IdleCycle_SpriteSheet_35: -1653998451
+      Monk_IdleCycle_SpriteSheet_36: 317153731
+      Monk_IdleCycle_SpriteSheet_37: -1162829128
+      Monk_IdleCycle_SpriteSheet_38: -653931349
+      Monk_IdleCycle_SpriteSheet_39: 1897364815
+      Monk_IdleCycle_SpriteSheet_4: -633045511
+      Monk_IdleCycle_SpriteSheet_40: 312967546
+      Monk_IdleCycle_SpriteSheet_41: 1419147083
+      Monk_IdleCycle_SpriteSheet_42: -1815637100
+      Monk_IdleCycle_SpriteSheet_43: 301476724
+      Monk_IdleCycle_SpriteSheet_44: -1655389309
+      Monk_IdleCycle_SpriteSheet_45: -282622039
+      Monk_IdleCycle_SpriteSheet_46: -1086046198
+      Monk_IdleCycle_SpriteSheet_47: -464387553
+      Monk_IdleCycle_SpriteSheet_48: -29693338
+      Monk_IdleCycle_SpriteSheet_49: 1812779804
+      Monk_IdleCycle_SpriteSheet_5: -919571541
+      Monk_IdleCycle_SpriteSheet_50: -102178425
+      Monk_IdleCycle_SpriteSheet_51: 1718897117
+      Monk_IdleCycle_SpriteSheet_52: -498243924
+      Monk_IdleCycle_SpriteSheet_53: -950026037
+      Monk_IdleCycle_SpriteSheet_54: 78724475
+      Monk_IdleCycle_SpriteSheet_55: 1538193492
+      Monk_IdleCycle_SpriteSheet_56: 1763382566
+      Monk_IdleCycle_SpriteSheet_57: 230767286
+      Monk_IdleCycle_SpriteSheet_58: 6918247
+      Monk_IdleCycle_SpriteSheet_59: -6565239
+      Monk_IdleCycle_SpriteSheet_6: -1627375129
+      Monk_IdleCycle_SpriteSheet_7: -1882623694
+      Monk_IdleCycle_SpriteSheet_8: 90051124
+      Monk_IdleCycle_SpriteSheet_9: 470452074
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

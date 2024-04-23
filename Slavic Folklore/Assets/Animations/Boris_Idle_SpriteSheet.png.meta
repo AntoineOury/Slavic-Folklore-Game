@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 0e143a36c5374854fbbfd5f8c7de8d4b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff3115ba67f3f84f903cd4a33752ac6
+      internalID: 594984358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415038a2970eb9f46adf98f70fab00ca
+      internalID: -1942656509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb06c5029b52848a94df67a162439d
+      internalID: 171415505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9f298d974d6494a8b43bc2c769d800
+      internalID: -2048508577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3255a1d9a73770746a5b440ece7713d7
+      internalID: -1348396193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e014b1caeea140a31dc809e60d031
+      internalID: 90900275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac264679ffff92643b59b2c56a4e99b4
+      internalID: -458494204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a8ba798664b548953948e989905c7
+      internalID: 121965677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf9c4ef839afd544a45b6df48d82560
+      internalID: 1411857253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515b652c0804a6d48a949f201a15c7ed
+      internalID: -89821104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1752e7762431542ae3b10f9ca10f01
+      internalID: 1719908418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d562b40b222b0c84085066c70bd9eff6
+      internalID: 1283559139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eedcd23cf9ea814c9ba65805db0237b
+      internalID: 1981975712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08db93c9a97f884d9fde55867aa8a84
+      internalID: -1179441787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0909300ced81e1643a150920e6b36bf7
+      internalID: 1349574271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054215dd4f2170d4ba3978f999959522
+      internalID: -1736101846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb2c5afba8f7214f99d8d1c9c645ed8
+      internalID: 2074498784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa4c6857d113c44bb4f00609ed3cbd6
+      internalID: -1370775505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91e5f666996f864690096e9a4882a7c
+      internalID: 1752264222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20511c2d0c31bbf4dbebaa60772dcea8
+      internalID: -358853612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b51a8132f0aac49b037ced8711d548
+      internalID: 1244875582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3271105f311c746b2e175a894e82a8
+      internalID: 1188211225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6379a39f9736924468da3b81bab4cb1c
+      internalID: -750852270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014785932cc690849b39ff34f195bda9
+      internalID: 1702117800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d60329234829f546ad143d7a26dbf66
+      internalID: 399486199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc63cbaf894dd9498c4613adde566f6
+      internalID: -501633096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985b9d69f056bfb4b8e9df1598294595
+      internalID: 2040059756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0164f85703b3db24a8a60d3341befaa6
+      internalID: -84804618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bdc16f70a060e45ad8385e9c731bd7
+      internalID: -385192436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66333ea14ee7a448b9c5ddd166fc7da
+      internalID: 1244470290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2130a78a67e807f4dbe16d176910255c
+      internalID: -1985759989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d422e72423f76f14ebd618941668e0ea
+      internalID: -602437172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942e114be19d5f74da168bcd609abd38
+      internalID: 1821435164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e8efbd12e89e64f8ef4a6ca4fad738
+      internalID: 1139743549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b00528a1dcb42449b50dbebd30fe7e6
+      internalID: 1993371859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4baa47584fd58409565ef41da5f7b5
+      internalID: -890671128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ac3c6fb04ffcb4489f24ceec6f823d
+      internalID: 887239193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2d4f6c5c481db49b7d8e2ac4176490
+      internalID: -2100991404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4cd690877a5d40b42d94b2339f2be
+      internalID: 1757488526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c263869cf84a94a9d7fa7d1be4847c
+      internalID: -1972983871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be30f37ff95f6804292d7d26cf8a541e
+      internalID: 2024702918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87f474050b0e874ab04954a71ecafb1
+      internalID: -1716272561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ec9bb30a0d6ad4d954d0d232d6f0ca
+      internalID: 1971428532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfed8b1369f2590409e412eb80c23268
+      internalID: 1244655615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b749a8e48667407418325eb2a7ee89dd
+      internalID: 1045953176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a7c17b201fa64db687a662ff05ff5
+      internalID: -157309579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f85c3e607c1f941aaba8d648aaf219
+      internalID: 1059606906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4539aab5055bae5459559851ff5fd84c
+      internalID: -741817566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292d4d7b10748f24cb21768019bec3ca
+      internalID: -500939482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089209041cec80643a3a2a4cdfadc771
+      internalID: -2019995029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b001a4e743fb2694b8345b62a7740bdf
+      internalID: 1113338654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a277f8b5ebd03e14bb3d5d622b7e9b3c
+      internalID: -791353255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e452fee432e8414db32a11c685ad126
+      internalID: 351323903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4515d87ef1cb7344d9938fc8ac746209
+      internalID: -973302448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ac6fdba1cc12c4d91c5432087315f6
+      internalID: 1400772493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fdffaa5b28b7f46aa0e3ed91c078de
+      internalID: 1781120069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbc78cad0d6937408e54f10495b39e7
+      internalID: 929194699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22ddac541210e747ad14d61ce6a1892
+      internalID: -966615446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd81e29608ddaa428b09845881126d9
+      internalID: 925240619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boris_Idle_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924bbc154ecf9224fbf16ce9b59a4b7e
+      internalID: -517362751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2e0de358ba5fc1548a9dae161ea2ce96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boris_Idle_SpriteSheet_0: 594984358
+      Boris_Idle_SpriteSheet_1: -1942656509
+      Boris_Idle_SpriteSheet_10: 1719908418
+      Boris_Idle_SpriteSheet_11: 1283559139
+      Boris_Idle_SpriteSheet_12: 1981975712
+      Boris_Idle_SpriteSheet_13: -1179441787
+      Boris_Idle_SpriteSheet_14: 1349574271
+      Boris_Idle_SpriteSheet_15: -1736101846
+      Boris_Idle_SpriteSheet_16: 2074498784
+      Boris_Idle_SpriteSheet_17: -1370775505
+      Boris_Idle_SpriteSheet_18: 1752264222
+      Boris_Idle_SpriteSheet_19: -358853612
+      Boris_Idle_SpriteSheet_2: 171415505
+      Boris_Idle_SpriteSheet_20: 1244875582
+      Boris_Idle_SpriteSheet_21: 1188211225
+      Boris_Idle_SpriteSheet_22: -750852270
+      Boris_Idle_SpriteSheet_23: 1702117800
+      Boris_Idle_SpriteSheet_24: 399486199
+      Boris_Idle_SpriteSheet_25: -501633096
+      Boris_Idle_SpriteSheet_26: 2040059756
+      Boris_Idle_SpriteSheet_27: -84804618
+      Boris_Idle_SpriteSheet_28: -385192436
+      Boris_Idle_SpriteSheet_29: 1244470290
+      Boris_Idle_SpriteSheet_3: -2048508577
+      Boris_Idle_SpriteSheet_30: -1985759989
+      Boris_Idle_SpriteSheet_31: -602437172
+      Boris_Idle_SpriteSheet_32: 1821435164
+      Boris_Idle_SpriteSheet_33: 1139743549
+      Boris_Idle_SpriteSheet_34: 1993371859
+      Boris_Idle_SpriteSheet_35: -890671128
+      Boris_Idle_SpriteSheet_36: 887239193
+      Boris_Idle_SpriteSheet_37: -2100991404
+      Boris_Idle_SpriteSheet_38: 1757488526
+      Boris_Idle_SpriteSheet_39: -1972983871
+      Boris_Idle_SpriteSheet_4: -1348396193
+      Boris_Idle_SpriteSheet_40: 2024702918
+      Boris_Idle_SpriteSheet_41: -1716272561
+      Boris_Idle_SpriteSheet_42: 1971428532
+      Boris_Idle_SpriteSheet_43: 1244655615
+      Boris_Idle_SpriteSheet_44: 1045953176
+      Boris_Idle_SpriteSheet_45: -157309579
+      Boris_Idle_SpriteSheet_46: 1059606906
+      Boris_Idle_SpriteSheet_47: -741817566
+      Boris_Idle_SpriteSheet_48: -500939482
+      Boris_Idle_SpriteSheet_49: -2019995029
+      Boris_Idle_SpriteSheet_5: 90900275
+      Boris_Idle_SpriteSheet_50: 1113338654
+      Boris_Idle_SpriteSheet_51: -791353255
+      Boris_Idle_SpriteSheet_52: 351323903
+      Boris_Idle_SpriteSheet_53: -973302448
+      Boris_Idle_SpriteSheet_54: 1400772493
+      Boris_Idle_SpriteSheet_55: 1781120069
+      Boris_Idle_SpriteSheet_56: 929194699
+      Boris_Idle_SpriteSheet_57: -966615446
+      Boris_Idle_SpriteSheet_58: 925240619
+      Boris_Idle_SpriteSheet_59: -517362751
+      Boris_Idle_SpriteSheet_6: -458494204
+      Boris_Idle_SpriteSheet_7: 121965677
+      Boris_Idle_SpriteSheet_8: 1411857253
+      Boris_Idle_SpriteSheet_9: -89821104
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
