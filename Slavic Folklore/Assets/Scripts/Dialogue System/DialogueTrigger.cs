@@ -7,11 +7,20 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject dialogueTrigger;
     public TMP_Text pressE;
     public Image dialogueBubble;
+
+    public AudioSource audioSource; // New AudioSource variable
+    public AudioClip pressSound;    // AudioClip for the 'E' key press sound
     private bool inRange = false;
     
     //checking if dialogue bubble is already there 
     private bool isDialogueBubbleActive = false;
     
+    void Start()
+    {
+        // Fetch AudioSource component from the same GameObject or add it if not present
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>(); 
+    }
     
     void Update()
     {
@@ -26,6 +35,12 @@ public class DialogueTrigger : MonoBehaviour
             
             //flagging that the dialogueBubble is ACTIVE (not to spawn it multiple time if player spams E
             isDialogueBubbleActive = true;
+
+             // Play the press sound when 'E' is pressed
+            if (pressSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(pressSound);
+            }
             
         }
     }
