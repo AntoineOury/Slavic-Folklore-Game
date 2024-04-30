@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 19356d64c62c5a04d9bc5a7730eb6269
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77195176214c69a4bb4b5824ce94c2e7
+      internalID: 983623178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1120ccebad02049929a5a4ea8f23f0
+      internalID: -2092437749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6fd03c9e0e894eb4359973863f240
+      internalID: -445618321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a218269c6b1cd0648975f728513ef782
+      internalID: -1997636231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c360ff0c72cdf4bad59354f09fac53
+      internalID: 1642354616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a400983a037a2ee45b1c8d81e1c01a3c
+      internalID: 574917741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af3447939310704f892a6f8f1e882d0
+      internalID: -1191363632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb582dcc961610c4089da005b3f8cde1
+      internalID: -1158937667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e1bf48ad38244d8c904eda9768ebc
+      internalID: -197555158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836c504a769f5b74785872c96d8a5d06
+      internalID: 1009992690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f0c3ef8ab0a2444bffd95c51a4df0d
+      internalID: 2046108950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 5120
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8832e39fd604684694b1a86d5e74834
+      internalID: -1854621894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e8d92a8856b154eacdda17f38f5d80
+      internalID: 1846360042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213f80f47ca848240a01494f4fe14753
+      internalID: 1014895905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c1d74e8b6b31f439df59b105f37062
+      internalID: 1576845478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49080028bbdf7e0429c14d1ce0363706
+      internalID: -1458792669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e63cc6c6af4b4b9591213d2632ab2
+      internalID: -1129700879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8dc01f83b155846893d0fa3bff3037
+      internalID: -468177761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe25416482bb89948b2a25ab6fa24f6d
+      internalID: -1857572931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ffd00a9ef7ecd46addffcac1a8d94d
+      internalID: -1274168936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71228fa9185e26740a4ff53b11e62878
+      internalID: 1773681803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90f6731c0a39b94cbb8661c76b0ce90
+      internalID: -1982932661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25c8ff772e97ce49ac7dda33247133b
+      internalID: 1515408656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 3840
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac73319165d88f47a3f25be8d9ba265
+      internalID: -1024510651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e342704f20969740a4ad869886257ba
+      internalID: -1073971526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b2d349139c444f9d90369218ef744
+      internalID: -501051498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fcf54b637d94a40b622829d1c90af3
+      internalID: -1317879648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcf0adb40e35e948bd410424e089e6a
+      internalID: 397791924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba4825852c6240458018470c9ed4f40
+      internalID: 626030007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061839e6c99ad32428081dc23aa3fa4e
+      internalID: -2052260395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f55bbdb7a551fb42b168c0e55d95cb7
+      internalID: -1136866006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff3f6c519ef5c248ade781c02234836
+      internalID: 702667428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bcb1c098bab2e4db0c286123ea53e1
+      internalID: -1282316586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a8dfd8e9ebe9247889cc9f36059613
+      internalID: -187789299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e72dfe68054a74692aad5c3b7b6b8d
+      internalID: 761937976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 2560
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de67a1837c4abb459be086523d3ea9a
+      internalID: -553248047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dff54cbbbd2b324fb23ad7b426d2022
+      internalID: 1349248825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc4a701d4cee3048bc4738f30cda083
+      internalID: 548213258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873e1e29b0e070f49ba7f0e02656a04c
+      internalID: -1541229548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b4a4d4e9c4b4d468c7db4b58010b24
+      internalID: -788779161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d8297c70792147a0df3f31a1296d8
+      internalID: -907929481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ed55052170d194a9d86f804018967a
+      internalID: 128089397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4e5acaf4e85e48ac170bfacf80203
+      internalID: 1461206160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e785630bf858b374588651d24d272fc9
+      internalID: 83857220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d531b0aedd79b3c4992fe9ae5bcb7a70
+      internalID: -807385188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e18ca4e7168429469497d0063ea7b5c
+      internalID: 19156408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18993685562c5e74ab247b4b4677e76d
+      internalID: 724193838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 1280
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fa0ed1fa6b9d442a2cb1fbfe3f26af
+      internalID: 1514376734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a609b7ea065304546ae8d6500b0babd2
+      internalID: 92264764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8275dfed68351d4cb1b20671754e0cd
+      internalID: -1118698782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa9174d8c4f4de45a371550c0c49ea6
+      internalID: 35387031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e087972ef722bbe40bbac3f96cac63d8
+      internalID: 61009415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a08f20f0d385b428d966eb63703b38
+      internalID: 1809512911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0528262edf91f654f90c88ee1d63ef4a
+      internalID: 927849167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8184486d02f7bd4498e5ff5db682fec2
+      internalID: 310929174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da37988a5562f142995ef307cf57bd2
+      internalID: 1249651134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c422082a857145c4fa65bfd6771b924b
+      internalID: -645676376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c18b0d9634f5fe47b563ecdc0a0807c
+      internalID: -1061802148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3b352a058abe64fabaad2860dd3646
+      internalID: 607241027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruslka1_IdleCycle_SpriteSheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 0
+        width: 720
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b7ba5b51d95a45a07d788efbac0b9
+      internalID: -327512385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 31a321133b37fe24aa5b778ed2351bc3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ruslka1_IdleCycle_SpriteSheet 1_0: 983623178
+      Ruslka1_IdleCycle_SpriteSheet 1_1: -2092437749
+      Ruslka1_IdleCycle_SpriteSheet 1_10: 2046108950
+      Ruslka1_IdleCycle_SpriteSheet 1_11: -1854621894
+      Ruslka1_IdleCycle_SpriteSheet 1_12: 1846360042
+      Ruslka1_IdleCycle_SpriteSheet 1_13: 1014895905
+      Ruslka1_IdleCycle_SpriteSheet 1_14: 1576845478
+      Ruslka1_IdleCycle_SpriteSheet 1_15: -1458792669
+      Ruslka1_IdleCycle_SpriteSheet 1_16: -1129700879
+      Ruslka1_IdleCycle_SpriteSheet 1_17: -468177761
+      Ruslka1_IdleCycle_SpriteSheet 1_18: -1857572931
+      Ruslka1_IdleCycle_SpriteSheet 1_19: -1274168936
+      Ruslka1_IdleCycle_SpriteSheet 1_2: -445618321
+      Ruslka1_IdleCycle_SpriteSheet 1_20: 1773681803
+      Ruslka1_IdleCycle_SpriteSheet 1_21: -1982932661
+      Ruslka1_IdleCycle_SpriteSheet 1_22: 1515408656
+      Ruslka1_IdleCycle_SpriteSheet 1_23: -1024510651
+      Ruslka1_IdleCycle_SpriteSheet 1_24: -1073971526
+      Ruslka1_IdleCycle_SpriteSheet 1_25: -501051498
+      Ruslka1_IdleCycle_SpriteSheet 1_26: -1317879648
+      Ruslka1_IdleCycle_SpriteSheet 1_27: 397791924
+      Ruslka1_IdleCycle_SpriteSheet 1_28: 626030007
+      Ruslka1_IdleCycle_SpriteSheet 1_29: -2052260395
+      Ruslka1_IdleCycle_SpriteSheet 1_3: -1997636231
+      Ruslka1_IdleCycle_SpriteSheet 1_30: -1136866006
+      Ruslka1_IdleCycle_SpriteSheet 1_31: 702667428
+      Ruslka1_IdleCycle_SpriteSheet 1_32: -1282316586
+      Ruslka1_IdleCycle_SpriteSheet 1_33: -187789299
+      Ruslka1_IdleCycle_SpriteSheet 1_34: 761937976
+      Ruslka1_IdleCycle_SpriteSheet 1_35: -553248047
+      Ruslka1_IdleCycle_SpriteSheet 1_36: 1349248825
+      Ruslka1_IdleCycle_SpriteSheet 1_37: 548213258
+      Ruslka1_IdleCycle_SpriteSheet 1_38: -1541229548
+      Ruslka1_IdleCycle_SpriteSheet 1_39: -788779161
+      Ruslka1_IdleCycle_SpriteSheet 1_4: 1642354616
+      Ruslka1_IdleCycle_SpriteSheet 1_40: -907929481
+      Ruslka1_IdleCycle_SpriteSheet 1_41: 128089397
+      Ruslka1_IdleCycle_SpriteSheet 1_42: 1461206160
+      Ruslka1_IdleCycle_SpriteSheet 1_43: 83857220
+      Ruslka1_IdleCycle_SpriteSheet 1_44: -807385188
+      Ruslka1_IdleCycle_SpriteSheet 1_45: 19156408
+      Ruslka1_IdleCycle_SpriteSheet 1_46: 724193838
+      Ruslka1_IdleCycle_SpriteSheet 1_47: 1514376734
+      Ruslka1_IdleCycle_SpriteSheet 1_48: 92264764
+      Ruslka1_IdleCycle_SpriteSheet 1_49: -1118698782
+      Ruslka1_IdleCycle_SpriteSheet 1_5: 574917741
+      Ruslka1_IdleCycle_SpriteSheet 1_50: 35387031
+      Ruslka1_IdleCycle_SpriteSheet 1_51: 61009415
+      Ruslka1_IdleCycle_SpriteSheet 1_52: 1809512911
+      Ruslka1_IdleCycle_SpriteSheet 1_53: 927849167
+      Ruslka1_IdleCycle_SpriteSheet 1_54: 310929174
+      Ruslka1_IdleCycle_SpriteSheet 1_55: 1249651134
+      Ruslka1_IdleCycle_SpriteSheet 1_56: -645676376
+      Ruslka1_IdleCycle_SpriteSheet 1_57: -1061802148
+      Ruslka1_IdleCycle_SpriteSheet 1_58: 607241027
+      Ruslka1_IdleCycle_SpriteSheet 1_59: -327512385
+      Ruslka1_IdleCycle_SpriteSheet 1_6: -1191363632
+      Ruslka1_IdleCycle_SpriteSheet 1_7: -1158937667
+      Ruslka1_IdleCycle_SpriteSheet 1_8: -197555158
+      Ruslka1_IdleCycle_SpriteSheet 1_9: 1009992690
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
