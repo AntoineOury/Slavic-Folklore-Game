@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
+    //script from: https://www.youtube.com/watch?v=ZPUtQ4pGGWs
+    
     private Vector3 offset;
     [SerializeField] private Transform target;
     [SerializeField] private float smoothTime;
