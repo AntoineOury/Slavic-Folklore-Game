@@ -3198,10 +3198,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b280b69223f239d4ebe52a80eecdaa80, type: 3}
+  m_Script: {fileID: 11500000, guid: a06a255e6728d7846919b2d08833e0ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  target: {fileID: 1212451220}
+  smoothTime: 0.25
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
