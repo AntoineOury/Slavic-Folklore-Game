@@ -15,6 +15,7 @@ MonoBehaviour:
   characterName: Mother
   lines:
   - text: You must flee to Raden, we have friends there
-  - text: Go straigh through the woods, pass a lake, don't stop!
-  - text: Here is a motanka I made
+  - text: Go straigh through the woods
+  - text: You will pass a lake, keep going until you reach Raden
+  - text: Here is a motanka I made...
   - text: It will keep you safe on your journey.

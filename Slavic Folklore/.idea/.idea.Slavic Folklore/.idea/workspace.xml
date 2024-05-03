@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene02 - Into the Woods.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02 - Into the Woods.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_MomNPC.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_MomNPC.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/InspectDetailsSO/InspectSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/QuestSO/QuestSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FeatureUnlock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@5.0.7/Runtime/Core/ColliderBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.terrain-tools@4.0.5/Runtime/TerrainToolbox/TerrainGroup.cs" root0="SKIP_HIGHLIGHTING" />
@@ -144,7 +145,7 @@
       <workItem from="1713616746738" duration="2169000" />
       <workItem from="1713619581710" duration="18000" />
       <workItem from="1713626250336" duration="1405000" />
-      <workItem from="1714751715956" duration="1672000" />
+      <workItem from="1714751715956" duration="3064000" />
     </task>
     <servers />
   </component>
