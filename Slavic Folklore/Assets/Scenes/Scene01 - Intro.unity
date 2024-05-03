@@ -11813,6 +11813,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: pressSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b4596120ccab45beb33923dc8a04e72, type: 3}
+    - target: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1737264260}
     - target: {fileID: 6262967429707162916, guid: da15b486525f81f4a8406239dce251c8, type: 3}
       propertyPath: m_Camera
       value: 
