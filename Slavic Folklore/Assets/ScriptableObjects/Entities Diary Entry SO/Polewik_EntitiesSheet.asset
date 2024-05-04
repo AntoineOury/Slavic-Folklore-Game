@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Polewik
   partialInfo: 
   fullInfo: 
-  artShadow: {fileID: 21300000, guid: 75cea6a0fa026ca40853c462f8ce58b2, type: 3}
-  entityArt: {fileID: 21300000, guid: 75cea6a0fa026ca40853c462f8ce58b2, type: 3}
+  artShadow: {fileID: 21300000, guid: 0e9f72af3a3f86048a2cce821dfc7cc8, type: 3}
+  entityArt: {fileID: 21300000, guid: 0e9f72af3a3f86048a2cce821dfc7cc8, type: 3}
