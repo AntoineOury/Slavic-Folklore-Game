@@ -9,10 +9,10 @@ public class FeatureUnlock : MonoBehaviour
   [Tooltip("drag in MainCamera to blur background")]
   public PostProcessVolume ppVol;
 
-  [Tooltip("drag in Motanka Button")]
-  public Animator motankaButtonAnim;
+  [Tooltip("drag in Unlocked Feature element")]
+  public Animator uFeatureAnim;
 
-  public GameObject motankaButton;
+  public GameObject uFObject;
 
   [Tooltip("write duration of the animation")]
   public float animDuration;
@@ -44,8 +44,8 @@ public class FeatureUnlock : MonoBehaviour
     
     ppVol.enabled = true;
     newFeatureUnlocked.gameObject.SetActive(true);
-    motankaButton.gameObject.SetActive(true);
-    motankaButtonAnim.enabled = true;
+    uFObject.gameObject.SetActive(true);
+    uFeatureAnim.enabled = true;
     
     yield return new WaitForSeconds(animDuration);
     
