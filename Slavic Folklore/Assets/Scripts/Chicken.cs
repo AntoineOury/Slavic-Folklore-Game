@@ -25,7 +25,7 @@ public class Chicken : MonoBehaviour
     {
         float distance = Vector3.Distance(transform.position, Player.transform.position);
         
-        Debug.Log("Distance: " + distance);
+        // Debug.Log("Distance: " + distance);
         
         //chickens run away from player:
         if (distance < PlayerDistanceRun)
