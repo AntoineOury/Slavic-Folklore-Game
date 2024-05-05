@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e1b7a27c32cf0244a9aec0aa94a0b19, type: 3}
-  m_Name: Test2_InspectItem
+  m_Name: Borowik_InspectItem
   m_EditorClassIdentifier: 
-  itemName: Smth Smth
-  itemDesc: wbrfkwhfblahe
+  itemName: Boletus mushroom
+  itemDesc: "Very common, edible mushroom type in Eastern Europe. \nIf found growing
+    in a circle they were called a 'fairy ring' and were believed to have magical
+    properties."
