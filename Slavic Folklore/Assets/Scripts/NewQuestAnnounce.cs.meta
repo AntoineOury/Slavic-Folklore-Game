@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3bf94c65bf4f4f644aa3ce8f2983da87
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - relevantSO: {fileID: 11400000, guid: 364236d91981ec547889baa463bde6aa, type: 2}
+  - newQuest: {instanceID: 0}
+  - questTitle: {instanceID: 0}
+  - questTextAnim: {instanceID: 0}
+  - acceptQuest: {instanceID: 0}
+  - ppVol: {instanceID: 0}
+  - playermovement: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

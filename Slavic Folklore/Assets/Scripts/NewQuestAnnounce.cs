@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
 
-public class NewQuest : MonoBehaviour
+public class NewQuestAnnounce : MonoBehaviour
 {
     [Tooltip("QuestSO that is relevant to the unlocked quest")]
     public QuestSO relevantSO;
@@ -63,8 +63,5 @@ public class NewQuest : MonoBehaviour
        yield return new WaitForSeconds(1);
        
        acceptQuest.gameObject.SetActive(true);
-
-       //player movement speed back to normal
-       playermovement.speed = 3f;
    }
 }
