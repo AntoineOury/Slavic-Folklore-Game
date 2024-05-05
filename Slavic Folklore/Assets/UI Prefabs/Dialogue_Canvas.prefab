@@ -113,6 +113,8 @@ MonoBehaviour:
   dialogueTrigger: {fileID: 6630792288826950150, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
   pressE: {fileID: 6262967428362051354}
   dialogueBubble: {fileID: 6262967429922743386}
+  audioSource: {fileID: 0}
+  pressSound: {fileID: 0}
 --- !u!1 &6262967428362051352
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,8 +190,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278242047
+  m_fontColor: {r: 1, g: 0.7931801, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -639,7 +641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6262967429922743387
 RectTransform:
   m_ObjectHideFlags: 0
