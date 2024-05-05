@@ -54,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
 
         // Update animator
         animator.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x));
+        
+        animator.SetFloat("zVelocity", Mathf.Abs(rb.velocity.z));
 
         // Flip sprite
         if (x != 0 && x < 0)

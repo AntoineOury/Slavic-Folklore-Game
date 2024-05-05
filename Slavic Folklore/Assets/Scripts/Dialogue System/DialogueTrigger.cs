@@ -4,6 +4,7 @@ using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine.UI;
 public class DialogueTrigger : MonoBehaviour
 {
+    [Tooltip("drag in the Player")]
     public GameObject dialogueTrigger;
     public TMP_Text pressE;
     public Image dialogueBubble;

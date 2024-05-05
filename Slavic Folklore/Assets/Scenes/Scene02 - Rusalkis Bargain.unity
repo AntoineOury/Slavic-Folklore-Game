@@ -511,6 +511,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1286609745}
     m_Modifications:
+    - target: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1737264260}
+    - target: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: dialogueTrigger
+      value: 
+      objectReference: {fileID: 1223265895}
+    - target: {fileID: 6262967428266446279, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 916.55054
+      objectReference: {fileID: 0}
     - target: {fileID: 6262967429707162917, guid: da15b486525f81f4a8406239dce251c8, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
@@ -2197,7 +2209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 25.1, y: 7.5, z: -13.5}
+  m_LocalPosition: {x: 36.04, y: 7.5, z: -10.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2840,7 +2852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7515212838247684857, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.570005
+      value: 36.51001
       objectReference: {fileID: 0}
     - target: {fileID: 7515212838247684857, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2848,7 +2860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7515212838247684857, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.6199756
+      value: 6.400005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
@@ -2862,7 +2874,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7515212838247684833, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
   m_PrefabInstance: {fileID: 1212451218}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1223265895}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1866e80a0dd064b41a73a436e42bc290, type: 3}
@@ -2947,6 +2959,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219649325}
   m_CullTransparentMesh: 1
+--- !u!1 &1223265895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7515212838588441772, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
+  m_PrefabInstance: {fileID: 1212451218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1280376509
 GameObject:
   m_ObjectHideFlags: 0
@@ -4216,7 +4233,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278221567
+    rgba: 4278242047
   m_fontColor: {r: 1, g: 0.7921569, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4241,8 +4258,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -5708,6 +5725,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1169323911}
     m_Modifications:
+    - target: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 912629171}
+    - target: {fileID: 6262967428266446274, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: dialogueTrigger
+      value: 
+      objectReference: {fileID: 1223265895}
     - target: {fileID: 6262967429707162917, guid: da15b486525f81f4a8406239dce251c8, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
