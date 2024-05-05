@@ -449,7 +449,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111499868}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2197,7 +2197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 4.7, y: 7.5, z: -24.16}
+  m_LocalPosition: {x: 25.1, y: 7.5, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2840,7 +2840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7515212838247684857, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.1699963
+      value: 25.570005
       objectReference: {fileID: 0}
     - target: {fileID: 7515212838247684857, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2848,7 +2848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7515212838247684857, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.0400586
+      value: 3.6199756
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d051d6b57f3c0043b1d999aad455fdc, type: 3}
@@ -4701,7 +4701,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9101803083365586034, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
       propertyPath: m_text
-      value: Accept Quest!
+      value: Accept Quest
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101803083666851587, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101803083666851587, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101803083666851587, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 111499870}
+    - target: {fileID: 9101803083666851587, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StopCoroutine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101803083666851587, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.MonoBehaviour, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101803083666851587, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: QuestAnim
       objectReference: {fileID: 0}
     - target: {fileID: 9101803084035512106, guid: ec8d55a0aadab864ab00b5e2de0dee28, type: 3}
       propertyPath: m_Pivot.x
