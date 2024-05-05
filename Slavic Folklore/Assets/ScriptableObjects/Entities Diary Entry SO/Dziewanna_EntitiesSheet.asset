@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dziewanna_EntitiesSheet
   m_EditorClassIdentifier: 
   name: Dziewanna
-  partialInfo: 
+  partialInfo: Goddess of the hunt, wild animals, forests...
   fullInfo: 
   artShadow: {fileID: 21300000, guid: 5301f818f4013b445b15cba289064901, type: 3}
   entityArt: {fileID: 21300000, guid: 5301f818f4013b445b15cba289064901, type: 3}

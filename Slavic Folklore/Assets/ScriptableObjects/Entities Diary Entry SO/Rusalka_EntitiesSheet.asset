@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Rusalka_EntitiesSheet
   m_EditorClassIdentifier: 
   name: "Rusa\u0142ka "
-  partialInfo: A spirit that appears in the woods...
-  fullInfo: "Rusa\u0142ki are blah blah blah "
+  partialInfo: "A spirit that appears in the woods... (more information unlocks after:
+    Rusa\u0142ki's Bargain)"
+  fullInfo: "A spirit fae that appears in the woods and lure men and women alike
+    to kill them. They had three ways of killing: tickling you to death, forcing
+    you to dance with them until you die, ask you a question (if you don\u2019t answer
+    you would be drowned). Appeared by bodies of water/ swamps, in the woods, in
+    the field, mountains, etc."
   artShadow: {fileID: 21300000, guid: 40f2b2aa9482cc64290e6a7ab936d3de, type: 3}
   entityArt: {fileID: 21300000, guid: 40f2b2aa9482cc64290e6a7ab936d3de, type: 3}

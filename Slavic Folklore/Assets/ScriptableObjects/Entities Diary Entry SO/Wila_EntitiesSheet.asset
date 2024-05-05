@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Wila_EntitiesSheet
   m_EditorClassIdentifier: 
   name: "Wi\u0142a"
-  partialInfo: 
+  partialInfo: They are beautiful young nymphs or fairies with long, often blonde
+    hair. They lure men and steal babies.
   fullInfo: 
   artShadow: {fileID: 21300000, guid: 3b64d88963d4c504081baf06ee43e2e5, type: 3}
   entityArt: {fileID: 21300000, guid: 3b64d88963d4c504081baf06ee43e2e5, type: 3}

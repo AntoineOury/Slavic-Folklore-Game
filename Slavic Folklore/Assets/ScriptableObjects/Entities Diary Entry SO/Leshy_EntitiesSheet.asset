@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Leshy_EntitiesSheet
   m_EditorClassIdentifier: 
   name: Leshy
-  partialInfo: "The spirit of the forest... Careful he can be very territorial and
+  partialInfo: "The spirit of the forest. Careful he can be very territorial and
     protective of his forest and its inhabitants! \n(more information unlock after
     quest: Leshy's Request)"
-  fullInfo: The spirit of the forest, who's task is to protect all fauna and flora
+  fullInfo: The spirit of the forest who's task is to protect all fauna and flora
     in his forest. Can appear dangerours if you act against the forest or peaceful
     and helpful if you help the forest!
   artShadow: {fileID: 21300000, guid: 36983a506c7da71419edfe112f76214e, type: 3}

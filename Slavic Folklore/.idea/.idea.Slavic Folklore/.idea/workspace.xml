@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cfefe9ea-d036-440d-8d6c-e699a49c3f6b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Slavic Folklore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene01 - Intro.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene02 - Rusalkis Bargain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene02 - Rusalkis Bargain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_Rusalka01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_Rusalka01.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_Rusalka02.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/DialoguesSO/DialogueLines_Rusalka02.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Rusalka_EntitiesSheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Rusalka_EntitiesSheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Strzyga_EntitiesSheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Strzyga_EntitiesSheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Wodnik_EntitiesSheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Entities Diary Entry SO/Wodnik_EntitiesSheet.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntitySheet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntitySheet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewQuest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewQuest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI Prefabs/Diary_GameObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Prefabs/Diary_GameObject.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI Prefabs/EntityDiaryEntry_Image.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Prefabs/EntityDiaryEntry_Image.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +155,7 @@
       <workItem from="1713626250336" duration="1405000" />
       <workItem from="1714751715956" duration="10149000" />
       <workItem from="1714833850599" duration="4926000" />
-      <workItem from="1714924268278" duration="5874000" />
+      <workItem from="1714924268278" duration="7290000" />
     </task>
     <servers />
   </component>
@@ -161,6 +165,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

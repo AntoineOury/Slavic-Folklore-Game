@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Polewik_EntitiesSheet
   m_EditorClassIdentifier: 
   name: Polewik
-  partialInfo: 
+  partialInfo: A field spirit that appears often at noon, can lead you astray in
+    the field for fun!
   fullInfo: 
   artShadow: {fileID: 21300000, guid: 0e9f72af3a3f86048a2cce821dfc7cc8, type: 3}
   entityArt: {fileID: 21300000, guid: 0e9f72af3a3f86048a2cce821dfc7cc8, type: 3}

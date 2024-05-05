@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Strzyga_EntitiesSheet
   m_EditorClassIdentifier: 
   name: Strzyga
-  partialInfo: '(more information unlocks after: Srzyga''s Rest)'
-  fullInfo: smth smth
+  partialInfo: 'Strzyga is a female vampire (but nastier!). To get rid of her, you
+    need to find where she was burried. (more information unlocks after: Srzyga''s
+    Rest)'
+  fullInfo: Strzyga is a female vampire (but nastier!). Barns, woods, and crossroads
+    are her favorite places to be during the night.
   artShadow: {fileID: 21300000, guid: 40cc7d8b192bf9841b1a049853eafcc8, type: 3}
   entityArt: {fileID: 21300000, guid: 40cc7d8b192bf9841b1a049853eafcc8, type: 3}

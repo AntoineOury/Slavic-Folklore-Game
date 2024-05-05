@@ -21,8 +21,6 @@ public class EntitySheet : MonoBehaviour
         basicInfo.text = relevantSO.partialInfo;
         entityImage.sprite = relevantSO.artShadow;
 
-
-
     }
     
 }

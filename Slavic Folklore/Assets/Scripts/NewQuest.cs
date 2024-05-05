@@ -11,7 +11,16 @@ public class NewQuest : MonoBehaviour
 {
     [Tooltip("QuestSO that is relevant to the unlocked quest")]
     public QuestSO relevantSO;
+
+    [Tooltip("Link relevant entity's SO info sheet")]
+    public EntitiesSO entityInfoSheet;
+
+    //this will be disabled to replace with full info 
+    public TMP_Text basicInfoText; 
     
+    //full info text
+    public TMP_Text fullInfoText;
+        
     public GameObject newQuest;
     public TMP_Text questTitle;
 
@@ -42,6 +51,11 @@ public class NewQuest : MonoBehaviour
         {
             //lock player in place
             playermovement.speed = 0f;
+
+            //script to be reviewed !!!
+            basicInfoText.gameObject.SetActive(false);
+            fullInfoText.gameObject.SetActive(true);
+            fullInfoText.text = entityInfoSheet.fullInfo;
             
             StartCoroutine(QuestAnim());
             
