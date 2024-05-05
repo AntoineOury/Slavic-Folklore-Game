@@ -518,6 +518,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743387, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743387, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743387, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 230
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da15b486525f81f4a8406239dce251c8, type: 3}
 --- !u!224 &117661872 stripped
@@ -4823,7 +4835,7 @@ GameObject:
   - component: {fileID: 1169323911}
   - component: {fileID: 1169323910}
   m_Layer: 0
-  m_Name: NPC_Rusalka02
+  m_Name: NPC_Rusalka01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5445,7 +5457,7 @@ GameObject:
   - component: {fileID: 1286609745}
   - component: {fileID: 1286609744}
   m_Layer: 0
-  m_Name: NPC_Rusalka01
+  m_Name: NPC_Rusalka02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5507,7 +5519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299337114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.67, z: 0}
+  m_LocalPosition: {x: 0.76, y: -0.67, z: -0}
   m_LocalScale: {x: 3, y: 5, z: 1.1903485}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6256,6 +6268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1365788804}
   - component: {fileID: 1365788805}
+  - component: {fileID: 1365788806}
   m_Layer: 0
   m_Name: Rusalka01NPC_Sprite
   m_TagString: Untagged
@@ -6320,7 +6333,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 40f2b2aa9482cc64290e6a7ab936d3de, type: 3}
+  m_Sprite: {fileID: 983623178, guid: 19356d64c62c5a04d9bc5a7730eb6269, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6331,6 +6344,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1365788806
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365788803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0bde5889b942966449ec24c502dd7a42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1396461574
 GameObject:
   m_ObjectHideFlags: 0
@@ -6645,6 +6679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478794277}
   - component: {fileID: 1478794278}
+  - component: {fileID: 1478794279}
   m_Layer: 0
   m_Name: Rusalka01NPC_Sprite
   m_TagString: Untagged
@@ -6709,7 +6744,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a4ec1baf68b239546978d8c86b5d5141, type: 3}
+  m_Sprite: {fileID: 2077696247, guid: e78c7488dd18db249a07c7b8562cad73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6720,6 +6755,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1478794279
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478794276}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 799e0d84d2c88ab44a90480c607ba516, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1495975551
 GameObject:
   m_ObjectHideFlags: 0
@@ -9184,6 +9240,18 @@ PrefabInstance:
     - target: {fileID: 6262967429922743384, guid: da15b486525f81f4a8406239dce251c8, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743387, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743387, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262967429922743387, guid: da15b486525f81f4a8406239dce251c8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 221
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da15b486525f81f4a8406239dce251c8, type: 3}
