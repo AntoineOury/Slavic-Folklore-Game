@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene01 - Intro.unity
     guid: 03995a675e6dead4cb7729f3d981e375
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene02 - Into the Woods.unity
     guid: 5e3001d2118f60049a7d40287665899a
+  - enabled: 1
+    path: Assets/Scenes/Scene02 - Rusalkis Bargain.unity
+    guid: d42fd63b804947a4cbc30b4cabf9a409
   m_configObjects: {}

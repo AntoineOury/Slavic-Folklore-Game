@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99970511af3689548b4a94cd38a87382, type: 3}
-  m_Name: DialogueLines_Rusalka01
+  m_Name: DialogueLines_StrzygaNPC
   m_EditorClassIdentifier: 
-  characterName: "Rusa\u0142ka"
+  characterName: Strzyga
   lines:
-  - text: 'Seer... we''re glad to see you here! '
-  - text: We have been struggling with a Strzyga at our lake
-  - text: Please take care of it, she's been attacking us
-  - text: So many of our clan has left the area because of her!
-  - text: If you help us, we'll tell you which way to leave the forest :)
+  - text: "Ah... Young Seer, Rusa\u0142ki sent you, didn't they ?"
+  - text: I suggest you run, I will not leave the lake !
